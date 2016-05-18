@@ -41,11 +41,6 @@ public class MenuCreditsScreen extends BaseScreen {
 		GameManager.player1.setActionFocus(controller1);
 		GameManager.player2.setActionFocus(controller2);
 		GameManager.multiplexer.addProcessor(stage);
-		if (AudioManager.getPlayingMusic() == Assets.music.musics.get("menu2")) {
-			AudioManager.resumeMusic();
-		} else {
-			AudioManager.play(Assets.music.musics.get("menu2"), 1f, false);
-		}
 		super.show();
 	}
 
@@ -54,13 +49,12 @@ public class MenuCreditsScreen extends BaseScreen {
 		GameManager.player1.setActionFocus(null);
 		GameManager.player2.setActionFocus(null);
 		GameManager.multiplexer.removeProcessor(stage);
-		AudioManager.pauseMusic();
 	}
 
 	public class Controller extends BaseActor implements IUserActions {
 		private void exit() {
 			AudioManager.play(Assets.sound.sounds.get("menu_back"));
-			ScreenManager.setScreen(new MenuMain());
+			ScreenManager.setScreen(new MenuMain(false));
 		}
 
 		@Override
