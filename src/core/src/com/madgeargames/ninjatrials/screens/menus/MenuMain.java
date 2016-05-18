@@ -147,10 +147,13 @@ public class MenuMain extends BaseScreen {
 		GameManager.player1.setActionFocus(optionsTable);
 		GameManager.player2.setActionFocus(optionsTable);
 		GameManager.multiplexer.addProcessor(stage);
-		if (AudioManager.getPlayingMusic() == Assets.music.musics.get("intro1")) {
-			AudioManager.resumeMusic();
-		} else if (startMusic) {
-			AudioManager.play(Assets.music.musics.get("intro1"), .5f, false);
+		if (startMusic) {
+			if (AudioManager.getPlayingMusic() == Assets.music.musics.get("intro1")
+					&& !AudioManager.getPlayingMusic().isPlaying()) {
+				AudioManager.resumeMusic();
+			} else {
+				AudioManager.play(Assets.music.musics.get("intro1"), .5f, false);
+			}
 		}
 		super.show();
 	}
