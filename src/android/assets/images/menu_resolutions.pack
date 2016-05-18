@@ -1,0 +1,26 @@
+
+menu_resolutions.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+resolution_widescreen
+  rotate: false
+  xy: 1, 27
+  size: 300, 182
+  orig: 1920, 1080
+  offset: 471, 493
+  index: -1
+resolution_four_three
+  rotate: false
+  xy: 303, 23
+  size: 238, 186
+  orig: 1920, 1080
+  offset: 885, 489
+  index: -1
+resolution_windowed
+  rotate: false
+  xy: 543, 1
+  size: 230, 208
+  orig: 1920, 1080
+  offset: 1235, 459
+  index: -1

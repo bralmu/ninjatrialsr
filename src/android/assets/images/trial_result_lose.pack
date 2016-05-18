@@ -1,0 +1,87 @@
+
+trial_result_lose.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg
+  rotate: false
+  xy: 1, 855
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+sho_win
+  rotate: false
+  xy: 1, 83
+  size: 449, 770
+  orig: 449, 770
+  offset: 0, 0
+  index: -1
+ryoko_win
+  rotate: false
+  xy: 452, 149
+  size: 296, 704
+  orig: 296, 704
+  offset: 0, 0
+  index: -1
+ryoko_lose
+  rotate: false
+  xy: 750, 512
+  size: 629, 341
+  orig: 629, 341
+  offset: 0, 0
+  index: -1
+sho_lose
+  rotate: false
+  xy: 750, 227
+  size: 629, 283
+  orig: 629, 283
+  offset: 0, 0
+  index: -1
+anim_ko_stars
+  rotate: false
+  xy: 1381, 635
+  size: 347, 218
+  orig: 381, 218
+  offset: 4, 0
+  index: 1
+anim_ko_stars
+  rotate: false
+  xy: 1381, 421
+  size: 308, 212
+  orig: 381, 218
+  offset: 17, 6
+  index: 2
+anim_ko_stars
+  rotate: false
+  xy: 1381, 205
+  size: 299, 214
+  orig: 381, 218
+  offset: 47, 4
+  index: 3
+ryoko_continue
+  rotate: false
+  xy: 1923, 1845
+  size: 86, 90
+  orig: 86, 90
+  offset: 0, 0
+  index: -1
+sho_continue
+  rotate: false
+  xy: 1, 1
+  size: 84, 80
+  orig: 84, 80
+  offset: 0, 0
+  index: -1
+
+trial_result_lose2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menacing_master
+  rotate: false
+  xy: 1, 1
+  size: 706, 1007
+  orig: 706, 1007
+  offset: 0, 0
+  index: -1

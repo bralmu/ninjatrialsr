@@ -1,0 +1,108 @@
+
+trial_result_win.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+scroll
+  rotate: false
+  xy: 1, 1004
+  size: 1064, 1029
+  orig: 1064, 1029
+  offset: 0, 0
+  index: -1
+ch_sho
+  rotate: false
+  xy: 1, 203
+  size: 437, 799
+  orig: 437, 799
+  offset: 0, 0
+  index: -1
+ch_sho_lose
+  rotate: false
+  xy: 1067, 1234
+  size: 435, 799
+  orig: 437, 799
+  offset: 0, 0
+  index: -1
+ch_ryoko
+  rotate: false
+  xy: 440, 235
+  size: 395, 767
+  orig: 395, 767
+  offset: 0, 0
+  index: -1
+ch_ryoko_lose
+  rotate: false
+  xy: 1504, 1247
+  size: 339, 786
+  orig: 395, 786
+  offset: 0, 0
+  index: -1
+scroll_drawings_jump
+  rotate: false
+  xy: 837, 524
+  size: 546, 478
+  orig: 553, 480
+  offset: 0, 2
+  index: -1
+scroll_drawings_cut
+  rotate: false
+  xy: 837, 82
+  size: 529, 440
+  orig: 553, 480
+  offset: 20, 26
+  index: -1
+stamp_ranking03
+  rotate: false
+  xy: 1067, 1032
+  size: 390, 200
+  orig: 390, 200
+  offset: 0, 0
+  index: -1
+stamp_ranking01
+  rotate: false
+  xy: 1, 1
+  size: 390, 200
+  orig: 390, 200
+  offset: 0, 0
+  index: -1
+scroll_drawings_shuriken
+  rotate: false
+  xy: 1385, 602
+  size: 505, 428
+  orig: 553, 480
+  offset: 0, 4
+  index: -1
+stamp_ranking04
+  rotate: false
+  xy: 1459, 1032
+  size: 390, 200
+  orig: 390, 200
+  offset: 0, 0
+  index: -1
+scroll_drawings_dash
+  rotate: false
+  xy: 1385, 255
+  size: 417, 345
+  orig: 553, 480
+  offset: 76, 77
+  index: -1
+stamp_ranking02
+  rotate: false
+  xy: 1368, 53
+  size: 390, 200
+  orig: 390, 200
+  offset: 0, 0
+  index: -1
+
+trial_result_win2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_pattern
+  rotate: false
+  xy: 1, 1
+  size: 400, 300
+  orig: 400, 300
+  offset: 0, 0
+  index: -1

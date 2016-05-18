@@ -1,0 +1,173 @@
+
+seq_common.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+face_sho_happy02
+  rotate: false
+  xy: 1, 405
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_normal01
+  rotate: false
+  xy: 1, 304
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_sad02
+  rotate: false
+  xy: 103, 405
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_angry02
+  rotate: false
+  xy: 1, 203
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_surprise01
+  rotate: false
+  xy: 103, 304
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_angry01
+  rotate: false
+  xy: 205, 405
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_ashamed02
+  rotate: false
+  xy: 1, 102
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_sad01
+  rotate: false
+  xy: 103, 203
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_surprise01
+  rotate: false
+  xy: 205, 304
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_angry01
+  rotate: false
+  xy: 307, 405
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_normal01
+  rotate: false
+  xy: 1, 1
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_ashamed02
+  rotate: false
+  xy: 103, 102
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_surprise02
+  rotate: false
+  xy: 205, 203
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_normal02
+  rotate: false
+  xy: 307, 304
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_normal02
+  rotate: false
+  xy: 409, 405
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_happy02
+  rotate: false
+  xy: 103, 1
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_sad02
+  rotate: false
+  xy: 205, 102
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_sad01
+  rotate: false
+  xy: 307, 203
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_surprise02
+  rotate: false
+  xy: 409, 304
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_angry02
+  rotate: false
+  xy: 205, 1
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_ashamed01
+  rotate: false
+  xy: 307, 102
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_sho_happy01
+  rotate: false
+  xy: 409, 203
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_ashamed01
+  rotate: false
+  xy: 307, 1
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+face_ryoko_happy01
+  rotate: false
+  xy: 409, 102
+  size: 100, 99
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

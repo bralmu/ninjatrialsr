@@ -1,0 +1,163 @@
+
+menu_various.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_main_bg
+  rotate: false
+  xy: 1, 954
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+menu_main_ryoko_glow
+  rotate: false
+  xy: 1, 44
+  size: 1805, 908
+  orig: 1920, 1080
+  offset: 17, 0
+  index: -1
+achievements_ingame_success_stamp
+  rotate: false
+  xy: 1808, 752
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+menu_main_spark
+  rotate: false
+  xy: 1808, 574
+  size: 176, 176
+  orig: 176, 176
+  offset: 0, 0
+  index: -1
+menu_cursor
+  rotate: false
+  xy: 1, 1
+  size: 147, 41
+  orig: 147, 41
+  offset: 0, 0
+  index: -1
+
+menu_various2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_options_down
+  rotate: false
+  xy: 1, 1023
+  size: 1920, 1020
+  orig: 1920, 1020
+  offset: 0, 0
+  index: -1
+menu_play_down
+  rotate: false
+  xy: 1, 1
+  size: 1920, 1020
+  orig: 1920, 1020
+  offset: 0, 0
+  index: -1
+
+menu_various3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_play_up
+  rotate: false
+  xy: 1, 1971
+  size: 1920, 60
+  orig: 1920, 60
+  offset: 0, 0
+  index: -1
+menu_options_up
+  rotate: false
+  xy: 1, 1909
+  size: 1920, 60
+  orig: 1920, 60
+  offset: 0, 0
+  index: -1
+volume_bar_color
+  rotate: false
+  xy: 1, 1798
+  size: 575, 109
+  orig: 575, 109
+  offset: 0, 0
+  index: -1
+volume_bar_grey
+  rotate: false
+  xy: 578, 1798
+  size: 575, 109
+  orig: 575, 109
+  offset: 0, 0
+  index: -1
+achievement_ingame_container
+  rotate: false
+  xy: 1155, 1715
+  size: 806, 192
+  orig: 806, 192
+  offset: 0, 0
+  index: -1
+menu_main_sho_cloth
+  rotate: false
+  xy: 1, 1009
+  size: 991, 787
+  orig: 1920, 1080
+  offset: 0, 184
+  index: -1
+menu_main_sho_cloth_glow
+  rotate: false
+  xy: 994, 894
+  size: 1008, 819
+  orig: 1920, 1080
+  offset: 0, 168
+  index: -1
+menu_main_ryoko
+  rotate: false
+  xy: 1, 1
+  size: 1771, 891
+  orig: 1920, 1080
+  offset: 35, 0
+  index: -1
+
+menu_various4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_main_sparks_big
+  rotate: false
+  xy: 1, 1
+  size: 1699, 1080
+  orig: 1920, 1080
+  offset: 30, 0
+  index: -1
+
+menu_various5.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_main_sparks_small
+  rotate: false
+  xy: 1, 1
+  size: 1551, 1080
+  orig: 1920, 1080
+  offset: 3, 0
+  index: -1
+
+menu_various6.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+menu_main_sho_glow
+  rotate: false
+  xy: 1, 1
+  size: 701, 1080
+  orig: 1920, 1080
+  offset: 716, 0
+  index: -1
+menu_main_sho
+  rotate: false
+  xy: 704, 15
+  size: 668, 1066
+  orig: 1920, 1080
+  offset: 732, 0
+  index: -1

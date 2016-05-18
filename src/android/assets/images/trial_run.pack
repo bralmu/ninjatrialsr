@@ -1,0 +1,974 @@
+
+trial_run.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+torii_close
+  rotate: false
+  xy: 1, 967
+  size: 509, 1080
+  orig: 919, 1080
+  offset: 318, 0
+  index: -1
+anim_sho_running_normal
+  rotate: false
+  xy: 1, 524
+  size: 463, 441
+  orig: 1000, 1000
+  offset: 174, 293
+  index: 3
+anim_sho_pose_win
+  rotate: false
+  xy: 466, 477
+  size: 441, 488
+  orig: 1000, 1000
+  offset: 396, 250
+  index: 2
+anim_sho_running_stop
+  rotate: false
+  xy: 1, 160
+  size: 459, 362
+  orig: 1000, 1000
+  offset: 236, 265
+  index: 2
+hud_line_bar
+  rotate: false
+  xy: 462, 430
+  size: 1012, 45
+  orig: 1012, 45
+  offset: 0, 0
+  index: -1
+anim_sho_running_normal
+  rotate: false
+  xy: 512, 1567
+  size: 458, 480
+  orig: 1000, 1000
+  offset: 196, 257
+  index: 5
+anim_sho_pose_win
+  rotate: false
+  xy: 909, 1077
+  size: 430, 488
+  orig: 1000, 1000
+  offset: 396, 250
+  index: 3
+anim_ryoko_running_fast
+  rotate: false
+  xy: 512, 1149
+  size: 390, 416
+  orig: 1000, 1000
+  offset: 319, 268
+  index: 4
+fog
+  rotate: false
+  xy: 904, 1131
+  size: 3, 434
+  orig: 3, 434
+  offset: 0, 0
+  index: -1
+anim_sho_standing
+  rotate: false
+  xy: 972, 1568
+  size: 229, 479
+  orig: 1000, 1000
+  offset: 351, 265
+  index: 2
+anim_hud_power_bar_max
+  rotate: false
+  xy: 512, 969
+  size: 180, 178
+  orig: 1920, 1080
+  offset: 19, 228
+  index: 1
+anim_ryoko_running_normal
+  rotate: false
+  xy: 1203, 1569
+  size: 326, 478
+  orig: 1000, 1000
+  offset: 301, 255
+  index: 4
+anim_effect_start
+  rotate: false
+  xy: 694, 977
+  size: 192, 170
+  orig: 470, 417
+  offset: 221, 56
+  index: 3
+torii_far
+  rotate: false
+  xy: 1341, 670
+  size: 318, 897
+  orig: 919, 1080
+  offset: 0, 183
+  index: -1
+bush_close04
+  rotate: false
+  xy: 888, 975
+  size: 90, 100
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+anim_sho_running_normal
+  rotate: false
+  xy: 909, 533
+  size: 428, 440
+  orig: 1000, 1000
+  offset: 208, 294
+  index: 6
+bush_close_end
+  rotate: false
+  xy: 980, 975
+  size: 90, 100
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+bush_close06
+  rotate: false
+  xy: 1072, 975
+  size: 90, 100
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+anim_ryoko_running_normal
+  rotate: false
+  xy: 1531, 1573
+  size: 357, 474
+  orig: 1000, 1000
+  offset: 303, 260
+  index: 3
+anim_effect_start
+  rotate: false
+  xy: 1339, 479
+  size: 282, 189
+  orig: 470, 417
+  offset: 114, 42
+  index: 5
+anim_sho_pose_win
+  rotate: false
+  xy: 1623, 180
+  size: 421, 488
+  orig: 1000, 1000
+  offset: 396, 250
+  index: 1
+anim_ryoko_running_fast
+  rotate: false
+  xy: 1661, 1189
+  size: 386, 382
+  orig: 1000, 1000
+  offset: 323, 302
+  index: 2
+anim_ryoko_running_fast
+  rotate: false
+  xy: 1661, 805
+  size: 386, 382
+  orig: 1000, 1000
+  offset: 323, 302
+  index: 5
+anim_ryoko_standing
+  rotate: false
+  xy: 462, 1
+  size: 281, 427
+  orig: 1000, 1000
+  offset: 351, 264
+  index: 3
+anim_effect_start
+  rotate: false
+  xy: 1, 5
+  size: 236, 153
+  orig: 470, 417
+  offset: 172, 51
+  index: 4
+anim_ryoko_running_fast
+  rotate: false
+  xy: 745, 5
+  size: 387, 423
+  orig: 1000, 1000
+  offset: 322, 261
+  index: 3
+bush_close02
+  rotate: false
+  xy: 1164, 980
+  size: 90, 95
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+anim_ryoko_running_fast
+  rotate: false
+  xy: 1134, 7
+  size: 387, 421
+  orig: 1000, 1000
+  offset: 322, 263
+  index: 6
+anim_effect_start
+  rotate: false
+  xy: 1523, 5
+  size: 241, 173
+  orig: 470, 417
+  offset: 179, 70
+  index: 2
+tree_crown_far01
+  rotate: false
+  xy: 1523, 267
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+bush_close03
+  rotate: false
+  xy: 1523, 180
+  size: 90, 85
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+anim_effect_stopping_smoke
+  rotate: false
+  xy: 1476, 432
+  size: 38, 45
+  orig: 56, 56
+  offset: 9, 5
+  index: 4
+anim_hud_power_bar_max
+  rotate: false
+  xy: 1766, 9
+  size: 171, 169
+  orig: 1920, 1080
+  offset: 24, 233
+  index: 2
+bush_far03
+  rotate: false
+  xy: 1256, 1000
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_close01
+  rotate: false
+  xy: 1939, 88
+  size: 90, 90
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+bush_far06
+  rotate: false
+  xy: 1939, 11
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+effect_shadow
+  rotate: false
+  xy: 239, 132
+  size: 203, 26
+  orig: 213, 32
+  offset: 4, 3
+  index: -1
+anim_effect_start
+  rotate: false
+  xy: 1661, 690
+  size: 286, 113
+  orig: 470, 417
+  offset: 113, 123
+  index: 1
+bush_close_start
+  rotate: false
+  xy: 1949, 714
+  size: 90, 89
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+hud_power_bar_char_shadow
+  rotate: false
+  xy: 1949, 673
+  size: 39, 39
+  orig: 1920, 1080
+  offset: 121, 32
+  index: -1
+hud_power_bar_char_ryoko
+  rotate: false
+  xy: 1990, 673
+  size: 39, 39
+  orig: 1920, 1080
+  offset: 121, 32
+  index: -1
+tree_trunk_close01
+  rotate: false
+  xy: 1890, 1647
+  size: 128, 400
+  orig: 128, 400
+  offset: 0, 0
+  index: -1
+bush_far04
+  rotate: false
+  xy: 1890, 1573
+  size: 68, 72
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_far01
+  rotate: false
+  xy: 1960, 1573
+  size: 68, 72
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_close05
+  rotate: false
+  xy: 239, 42
+  size: 90, 88
+  orig: 90, 100
+  offset: 0, 0
+  index: -1
+ground03
+  rotate: false
+  xy: 331, 90
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+ground04
+  rotate: false
+  xy: 331, 48
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+hud_line_mark_sho
+  rotate: false
+  xy: 909, 477
+  size: 63, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+hud_line_mark_shadow
+  rotate: false
+  xy: 974, 477
+  size: 63, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+hud_line_mark_ryoko
+  rotate: false
+  xy: 1039, 477
+  size: 63, 54
+  orig: 63, 54
+  offset: 0, 0
+  index: -1
+anim_effect_stopping_smoke
+  rotate: false
+  xy: 1104, 480
+  size: 48, 51
+  orig: 56, 56
+  offset: 3, 2
+  index: 2
+ground02
+  rotate: false
+  xy: 331, 6
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+hud_power_bar_char_sho
+  rotate: false
+  xy: 239, 1
+  size: 39, 39
+  orig: 1920, 1080
+  offset: 121, 32
+  index: -1
+anim_effect_stopping_smoke
+  rotate: false
+  xy: 1154, 483
+  size: 48, 48
+  orig: 56, 56
+  offset: 6, 4
+  index: 1
+anim_effect_stopping_smoke
+  rotate: false
+  xy: 1204, 484
+  size: 50, 47
+  orig: 56, 56
+  offset: 2, 5
+  index: 3
+
+trial_run2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_sho_running_normal
+  rotate: false
+  xy: 1, 1559
+  size: 445, 483
+  orig: 1000, 1000
+  offset: 177, 262
+  index: 2
+anim_sho_running_normal
+  rotate: false
+  xy: 1, 1103
+  size: 427, 454
+  orig: 1000, 1000
+  offset: 195, 261
+  index: 4
+anim_sho_running_normal
+  rotate: false
+  xy: 448, 1591
+  size: 427, 451
+  orig: 1000, 1000
+  offset: 195, 271
+  index: 1
+anim_sho_running_fast
+  rotate: false
+  xy: 877, 1679
+  size: 465, 363
+  orig: 1000, 1000
+  offset: 240, 268
+  index: 5
+anim_sho_running_fast
+  rotate: false
+  xy: 1344, 1677
+  size: 450, 365
+  orig: 1000, 1000
+  offset: 255, 265
+  index: 4
+anim_ryoko_running_normal
+  rotate: false
+  xy: 1, 644
+  size: 356, 457
+  orig: 1000, 1000
+  offset: 306, 276
+  index: 6
+anim_ryoko_running_normal
+  rotate: false
+  xy: 1, 184
+  size: 338, 458
+  orig: 1000, 1000
+  offset: 288, 266
+  index: 2
+anim_sho_standing
+  rotate: false
+  xy: 1796, 1579
+  size: 240, 463
+  orig: 1000, 1000
+  offset: 340, 265
+  index: 3
+anim_sho_running_stop
+  rotate: false
+  xy: 877, 1321
+  size: 456, 356
+  orig: 1000, 1000
+  offset: 242, 275
+  index: 1
+anim_sho_running_fast
+  rotate: false
+  xy: 1335, 1316
+  size: 450, 359
+  orig: 1000, 1000
+  offset: 255, 271
+  index: 1
+anim_ryoko_pose_win
+  rotate: false
+  xy: 359, 643
+  size: 232, 458
+  orig: 1000, 1000
+  offset: 396, 266
+  index: 2
+anim_ryoko_running_normal
+  rotate: false
+  xy: 341, 183
+  size: 324, 458
+  orig: 1000, 1000
+  offset: 309, 260
+  index: 5
+anim_ryoko_running_stop_b
+  rotate: false
+  xy: 1787, 1180
+  size: 256, 397
+  orig: 1000, 1000
+  offset: 423, 267
+  index: 2
+anim_ryoko_standing
+  rotate: false
+  xy: 430, 1117
+  size: 262, 440
+  orig: 1000, 1000
+  offset: 351, 264
+  index: 1
+anim_ryoko_running_normal
+  rotate: false
+  xy: 593, 646
+  size: 326, 469
+  orig: 1000, 1000
+  offset: 300, 263
+  index: 1
+anim_sho_pose_lose
+  rotate: false
+  xy: 667, 157
+  size: 268, 487
+  orig: 1000, 1000
+  offset: 420, 251
+  index: 1
+anim_ryoko_running_fast
+  rotate: false
+  xy: 921, 914
+  size: 390, 405
+  orig: 1000, 1000
+  offset: 319, 279
+  index: 1
+anim_sho_running_fast
+  rotate: false
+  xy: 1313, 954
+  size: 446, 360
+  orig: 1000, 1000
+  offset: 259, 271
+  index: 2
+anim_effect_continuous
+  rotate: false
+  xy: 921, 647
+  size: 276, 265
+  orig: 287, 289
+  offset: 3, 6
+  index: 2
+anim_sho_standing
+  rotate: false
+  xy: 937, 161
+  size: 226, 484
+  orig: 1000, 1000
+  offset: 354, 265
+  index: 1
+tree_trunk_close04
+  rotate: false
+  xy: 694, 1189
+  size: 128, 400
+  orig: 128, 400
+  offset: 0, 0
+  index: -1
+anim_sho_running_fast
+  rotate: false
+  xy: 1313, 617
+  size: 448, 335
+  orig: 1000, 1000
+  offset: 257, 297
+  index: 3
+anim_sho_running_fast
+  rotate: false
+  xy: 1165, 270
+  size: 448, 345
+  orig: 1000, 1000
+  offset: 257, 287
+  index: 6
+anim_ryoko_running_stop_b
+  rotate: false
+  xy: 1615, 218
+  size: 337, 397
+  orig: 1000, 1000
+  offset: 342, 267
+  index: 1
+anim_ryoko_standing
+  rotate: false
+  xy: 1763, 746
+  size: 272, 432
+  orig: 1000, 1000
+  offset: 351, 264
+  index: 2
+tree_trunk_far01
+  rotate: false
+  xy: 1954, 444
+  size: 93, 300
+  orig: 96, 300
+  offset: 2, 0
+  index: -1
+tree_crown_far_end
+  rotate: false
+  xy: 1954, 232
+  size: 93, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+anim_effect_start
+  rotate: false
+  xy: 1165, 1
+  size: 336, 267
+  orig: 470, 417
+  offset: 55, 43
+  index: 6
+hud_power_bar_rectangle
+  rotate: false
+  xy: 1199, 692
+  size: 100, 220
+  orig: 1920, 1080
+  offset: 50, 42
+  index: -1
+hud_power_bar_bg
+  rotate: false
+  xy: 1503, 48
+  size: 100, 220
+  orig: 1920, 1080
+  offset: 50, 42
+  index: -1
+tree_crown_far04
+  rotate: false
+  xy: 1605, 6
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+tree_crown_far03
+  rotate: false
+  xy: 1703, 6
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+tree_crown_far05
+  rotate: false
+  xy: 1801, 6
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+tree_crown_far02
+  rotate: false
+  xy: 1899, 6
+  size: 96, 210
+  orig: 96, 210
+  offset: 0, 0
+  index: -1
+ground01
+  rotate: false
+  xy: 1, 142
+  size: 120, 40
+  orig: 120, 40
+  offset: 0, 0
+  index: -1
+bush_far_end
+  rotate: false
+  xy: 1763, 669
+  size: 67, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_far05
+  rotate: false
+  xy: 694, 1120
+  size: 68, 67
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_far_start
+  rotate: false
+  xy: 1, 72
+  size: 67, 68
+  orig: 68, 75
+  offset: 1, 0
+  index: -1
+bush_far02
+  rotate: false
+  xy: 1832, 679
+  size: 68, 65
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+bush_farther_end_bottom
+  rotate: false
+  xy: 1, 6
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther_end_top
+  rotate: false
+  xy: 764, 1123
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther02
+  rotate: false
+  xy: 70, 76
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther_start_top
+  rotate: false
+  xy: 1199, 626
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther_start_bottom
+  rotate: false
+  xy: 136, 118
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther_end_mid
+  rotate: false
+  xy: 202, 118
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther_start_mid
+  rotate: false
+  xy: 268, 118
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther04
+  rotate: false
+  xy: 334, 117
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther03
+  rotate: false
+  xy: 400, 117
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+bush_farther01
+  rotate: false
+  xy: 466, 117
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+
+trial_run3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_ryoko_running_stop_a
+  rotate: false
+  xy: 1, 1534
+  size: 340, 397
+  orig: 1000, 1000
+  offset: 340, 267
+  index: 2
+anim_ryoko_running_stop_a
+  rotate: false
+  xy: 1, 1135
+  size: 340, 397
+  orig: 1000, 1000
+  offset: 340, 267
+  index: 1
+anim_sho_running_stop
+  rotate: false
+  xy: 343, 1580
+  size: 374, 351
+  orig: 1000, 1000
+  offset: 342, 265
+  index: 3
+anim_sho_pose_lose
+  rotate: false
+  xy: 1, 705
+  size: 222, 428
+  orig: 1000, 1000
+  offset: 391, 251
+  index: 2
+anim_effect_start
+  rotate: false
+  xy: 343, 1283
+  size: 349, 295
+  orig: 470, 417
+  offset: 45, 42
+  index: 7
+anim_effect_start
+  rotate: false
+  xy: 719, 1617
+  size: 329, 314
+  orig: 470, 417
+  offset: 59, 50
+  index: 8
+anim_ryoko_pose_win
+  rotate: false
+  xy: 1, 271
+  size: 207, 432
+  orig: 1000, 1000
+  offset: 421, 266
+  index: 1
+anim_effect_start
+  rotate: false
+  xy: 1050, 1641
+  size: 337, 290
+  orig: 470, 417
+  offset: 51, 61
+  index: 9
+anim_ryoko_pose_lose
+  rotate: false
+  xy: 1389, 1602
+  size: 267, 329
+  orig: 1000, 1000
+  offset: 412, 259
+  index: 1
+anim_ryoko_pose_lose
+  rotate: false
+  xy: 1658, 1649
+  size: 270, 282
+  orig: 1000, 1000
+  offset: 424, 225
+  index: 2
+tree_trunk_close05
+  rotate: false
+  xy: 225, 733
+  size: 119, 400
+  orig: 128, 400
+  offset: 4, 0
+  index: -1
+anim_effect_continuous
+  rotate: false
+  xy: 1, 1
+  size: 280, 268
+  orig: 287, 289
+  offset: 0, 6
+  index: 3
+tree_trunk_close03
+  rotate: false
+  xy: 210, 303
+  size: 108, 400
+  orig: 128, 400
+  offset: 12, 0
+  index: -1
+tree_trunk_close02
+  rotate: false
+  xy: 320, 331
+  size: 124, 400
+  orig: 128, 400
+  offset: 0, 0
+  index: -1
+anim_effect_continuous
+  rotate: false
+  xy: 346, 1013
+  size: 273, 268
+  orig: 287, 289
+  offset: 7, 6
+  index: 4
+tree_crown_close02
+  rotate: false
+  xy: 346, 733
+  size: 128, 278
+  orig: 128, 280
+  offset: 0, 2
+  index: -1
+tree_trunk_close06
+  rotate: false
+  xy: 446, 331
+  size: 119, 400
+  orig: 128, 400
+  offset: 4, 0
+  index: -1
+tree_crown_close_end
+  rotate: false
+  xy: 476, 734
+  size: 128, 277
+  orig: 128, 280
+  offset: 0, 3
+  index: -1
+tree_trunk_far05
+  rotate: false
+  xy: 1930, 1631
+  size: 95, 300
+  orig: 96, 300
+  offset: 1, 0
+  index: -1
+tree_crown_close06
+  rotate: false
+  xy: 621, 1005
+  size: 128, 276
+  orig: 128, 280
+  offset: 0, 4
+  index: -1
+tree_crown_close_start
+  rotate: false
+  xy: 606, 723
+  size: 128, 280
+  orig: 128, 280
+  offset: 0, 0
+  index: -1
+tree_crown_close04
+  rotate: false
+  xy: 567, 441
+  size: 128, 280
+  orig: 128, 280
+  offset: 0, 0
+  index: -1
+tree_trunk_far02
+  rotate: false
+  xy: 697, 421
+  size: 95, 300
+  orig: 96, 300
+  offset: 1, 0
+  index: -1
+tree_crown_close03
+  rotate: false
+  xy: 736, 723
+  size: 128, 280
+  orig: 128, 280
+  offset: 0, 0
+  index: -1
+tree_trunk_far06
+  rotate: false
+  xy: 794, 421
+  size: 95, 300
+  orig: 96, 300
+  offset: 1, 0
+  index: -1
+tree_trunk_far04
+  rotate: false
+  xy: 283, 1
+  size: 90, 300
+  orig: 96, 300
+  offset: 1, 0
+  index: -1
+anim_effect_continuous
+  rotate: false
+  xy: 375, 94
+  size: 228, 235
+  orig: 287, 289
+  offset: 51, 6
+  index: 1
+tree_crown_close01
+  rotate: false
+  xy: 694, 1299
+  size: 128, 279
+  orig: 128, 280
+  offset: 0, 1
+  index: -1
+tree_crown_close05
+  rotate: false
+  xy: 824, 1339
+  size: 128, 276
+  orig: 128, 280
+  offset: 0, 4
+  index: -1
+tree_trunk_far03
+  rotate: false
+  xy: 954, 1315
+  size: 91, 300
+  orig: 96, 300
+  offset: 1, 0
+  index: -1
+hud_power_bar_frame
+  rotate: false
+  xy: 751, 1057
+  size: 120, 240
+  orig: 1920, 1080
+  offset: 40, 32
+  index: -1
+tree_crown_far06
+  rotate: false
+  xy: 1047, 1406
+  size: 96, 209
+  orig: 96, 210
+  offset: 0, 1
+  index: -1
+tree_crown_far_start
+  rotate: false
+  xy: 1145, 1434
+  size: 95, 205
+  orig: 96, 210
+  offset: 1, 5
+  index: -1

@@ -1,0 +1,206 @@
+
+trial_menus.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+map_bg
+  rotate: false
+  xy: 1, 924
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+pause_frame
+  rotate: false
+  xy: 1, 242
+  size: 1176, 680
+  orig: 1192, 717
+  offset: 3, 36
+  index: -1
+anim_map_scroll
+  rotate: false
+  xy: 1179, 111
+  size: 760, 811
+  orig: 784, 816
+  offset: 10, 2
+  index: 4
+missions_frame02
+  rotate: false
+  xy: 1, 130
+  size: 915, 110
+  orig: 915, 110
+  offset: 0, 0
+  index: -1
+anim_map_standing_ryoko
+  rotate: false
+  xy: 1923, 1879
+  size: 85, 125
+  orig: 92, 143
+  offset: 5, 9
+  index: 2
+anim_map_standing_sho
+  rotate: false
+  xy: 1, 1
+  size: 75, 127
+  orig: 92, 143
+  offset: 4, 9
+  index: 1
+anim_map_standing_ryoko
+  rotate: false
+  xy: 1923, 1752
+  size: 70, 125
+  orig: 92, 143
+  offset: 13, 9
+  index: 1
+anim_map_walking_ryoko
+  rotate: false
+  xy: 78, 14
+  size: 79, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: 1
+anim_map_walking_sho
+  rotate: false
+  xy: 159, 14
+  size: 79, 114
+  orig: 81, 114
+  offset: 0, 0
+  index: 1
+anim_map_walking_ryoko
+  rotate: false
+  xy: 240, 15
+  size: 78, 113
+  orig: 81, 114
+  offset: 0, 1
+  index: 3
+anim_map_walking_sho
+  rotate: false
+  xy: 320, 15
+  size: 78, 113
+  orig: 81, 114
+  offset: 0, 1
+  index: 3
+anim_map_standing_sho
+  rotate: false
+  xy: 1923, 1626
+  size: 65, 124
+  orig: 92, 143
+  offset: 16, 9
+  index: 2
+anim_map_walking_sho
+  rotate: false
+  xy: 400, 17
+  size: 78, 111
+  orig: 81, 114
+  offset: 0, 3
+  index: 2
+anim_map_walking_ryoko
+  rotate: false
+  xy: 480, 17
+  size: 78, 111
+  orig: 81, 114
+  offset: 0, 3
+  index: 2
+mission_failed
+  rotate: false
+  xy: 918, 155
+  size: 86, 85
+  orig: 86, 85
+  offset: 0, 0
+  index: -1
+mission_accomplished
+  rotate: false
+  xy: 560, 58
+  size: 100, 70
+  orig: 100, 70
+  offset: 0, 0
+  index: -1
+map_mark_passed
+  rotate: false
+  xy: 1006, 202
+  size: 94, 38
+  orig: 94, 38
+  offset: 0, 0
+  index: -1
+map_mark_starting
+  rotate: false
+  xy: 560, 18
+  size: 94, 38
+  orig: 94, 38
+  offset: 0, 0
+  index: -1
+map_mark_actual
+  rotate: false
+  xy: 662, 90
+  size: 94, 38
+  orig: 94, 38
+  offset: 0, 0
+  index: -1
+
+trial_menus2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_map_scroll
+  rotate: false
+  xy: 1, 1384
+  size: 736, 661
+  orig: 784, 816
+  offset: 34, 2
+  index: 3
+anim_map_scroll
+  rotate: false
+  xy: 1, 841
+  size: 700, 541
+  orig: 784, 816
+  offset: 70, 2
+  index: 2
+anim_map_scroll
+  rotate: false
+  xy: 739, 1645
+  size: 681, 400
+  orig: 784, 816
+  offset: 89, 2
+  index: 1
+map_scroll_drawings_jump
+  rotate: false
+  xy: 1, 361
+  size: 546, 478
+  orig: 553, 480
+  offset: 0, 2
+  index: -1
+map_scroll_drawings_cut
+  rotate: false
+  xy: 1422, 1605
+  size: 529, 440
+  orig: 553, 480
+  offset: 20, 26
+  index: -1
+map_scroll_drawings_dash
+  rotate: false
+  xy: 1, 1
+  size: 446, 358
+  orig: 553, 480
+  offset: 48, 75
+  index: -1
+map_scroll_drawings_shuriken
+  rotate: false
+  xy: 739, 1215
+  size: 505, 428
+  orig: 553, 480
+  offset: 0, 4
+  index: -1
+missions_frame03
+  rotate: false
+  xy: 703, 841
+  size: 387, 372
+  orig: 387, 372
+  offset: 0, 0
+  index: -1
+missions_frame01
+  rotate: false
+  xy: 549, 539
+  size: 387, 300
+  orig: 387, 300
+  offset: 0, 0
+  index: -1

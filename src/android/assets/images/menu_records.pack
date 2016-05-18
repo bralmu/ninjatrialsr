@@ -1,0 +1,40 @@
+
+menu_records.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_pattern
+  rotate: false
+  xy: 1, 105
+  size: 400, 300
+  orig: 400, 300
+  offset: 0, 0
+  index: -1
+face_sho_best
+  rotate: false
+  xy: 1, 53
+  size: 52, 50
+  orig: 52, 50
+  offset: 0, 0
+  index: -1
+face_sho
+  rotate: false
+  xy: 403, 356
+  size: 52, 49
+  orig: 52, 49
+  offset: 0, 0
+  index: -1
+face_ryoko_best
+  rotate: false
+  xy: 1, 1
+  size: 48, 50
+  orig: 48, 50
+  offset: 0, 0
+  index: -1
+face_ryoko
+  rotate: false
+  xy: 55, 56
+  size: 45, 47
+  orig: 45, 47
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,78 @@
+
+menu_select_char.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+select_sky
+  rotate: false
+  xy: 1, 636
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+select_difficulty
+  rotate: false
+  xy: 1, 1
+  size: 1649, 633
+  orig: 1649, 633
+  offset: 0, 0
+  index: -1
+
+menu_select_char2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+select_roof
+  rotate: false
+  xy: 1, 1657
+  size: 1585, 385
+  orig: 1585, 385
+  offset: 0, 0
+  index: -1
+select_clouds
+  rotate: false
+  xy: 1, 1128
+  size: 1395, 527
+  orig: 1422, 537
+  offset: 0, 0
+  index: -1
+select_moon
+  rotate: false
+  xy: 1, 221
+  size: 940, 905
+  orig: 940, 905
+  offset: 0, 0
+  index: -1
+select_sho
+  rotate: false
+  xy: 943, 16
+  size: 636, 1110
+  orig: 657, 1120
+  offset: 9, 10
+  index: -1
+select_ryoko_mask
+  rotate: false
+  xy: 1588, 1014
+  size: 435, 1028
+  orig: 436, 1028
+  offset: 0, 0
+  index: -1
+select_ryoko
+  rotate: false
+  xy: 1581, 1
+  size: 418, 1011
+  orig: 436, 1028
+  offset: 9, 9
+  index: -1
+
+menu_select_char3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+select_sho_mask
+  rotate: false
+  xy: 1, 1
+  size: 654, 1119
+  orig: 657, 1120
+  offset: 0, 1
+  index: -1

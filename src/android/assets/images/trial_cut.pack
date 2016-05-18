@@ -1,0 +1,596 @@
+
+trial_cut.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_horizon
+  rotate: false
+  xy: 1, 963
+  size: 1920, 1080
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+char_sho_eyes
+  rotate: false
+  xy: 1, 350
+  size: 1416, 611
+  orig: 1416, 611
+  offset: 0, 0
+  index: -1
+bg_mountain_cut2p01
+  rotate: false
+  xy: 1, 192
+  size: 1006, 156
+  orig: 1920, 1080
+  offset: 97, 367
+  index: -1
+bg_mountain_cut1p01
+  rotate: false
+  xy: 1, 54
+  size: 1006, 136
+  orig: 1920, 1080
+  offset: 97, 367
+  index: -1
+anim_char_sho_cut
+  rotate: false
+  xy: 1419, 289
+  size: 532, 672
+  orig: 762, 721
+  offset: 15, 43
+  index: 1
+anim_dust_cloud
+  rotate: false
+  xy: 1009, 117
+  size: 912, 170
+  orig: 912, 170
+  offset: 0, 0
+  index: 3
+hud_precission_bar_bg
+  rotate: false
+  xy: 1009, 15
+  size: 880, 100
+  orig: 900, 120
+  offset: 10, 10
+  index: -1
+anim_candle_falling
+  rotate: false
+  xy: 1, 18
+  size: 543, 34
+  orig: 558, 493
+  offset: 15, 0
+  index: 3
+candle_base
+  rotate: false
+  xy: 1923, 1534
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 551, 106
+  index: 7
+candle_base
+  rotate: false
+  xy: 1923, 1023
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 1432, 174
+  index: 1
+candle_base
+  rotate: false
+  xy: 1955, 1534
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 815, 265
+  index: 4
+candle_base
+  rotate: false
+  xy: 1955, 1023
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 1227, 262
+  index: 2
+candle_base
+  rotate: false
+  xy: 1987, 1534
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 1069, 265
+  index: 3
+candle_base
+  rotate: false
+  xy: 1987, 1023
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 732, 48
+  index: 8
+candle_base
+  rotate: false
+  xy: 1953, 512
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 950, 79
+  index: 9
+candle_base
+  rotate: false
+  xy: 1985, 512
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 439, 224
+  index: 6
+candle_base
+  rotate: false
+  xy: 2017, 512
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 1185, 51
+  index: 10
+candle_base
+  rotate: false
+  xy: 1953, 1
+  size: 30, 509
+  orig: 1920, 1080
+  offset: 634, 260
+  index: 5
+sweatdrop
+  rotate: false
+  xy: 1985, 403
+  size: 46, 107
+  orig: 46, 107
+  offset: 0, 0
+  index: -1
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 1009, 331
+  size: 114, 17
+  orig: 114, 42
+  offset: 0, 0
+  index: 3
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 1, 1
+  size: 114, 15
+  orig: 114, 42
+  offset: 0, 0
+  index: 5
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 546, 40
+  size: 109, 12
+  orig: 114, 42
+  offset: 0, 0
+  index: 4
+anim_candle_falling_fire
+  rotate: false
+  xy: 1985, 336
+  size: 48, 65
+  orig: 558, 493
+  offset: 500, 17
+  index: 2
+anim_candle_falling_fire
+  rotate: false
+  xy: 1985, 269
+  size: 53, 65
+  orig: 558, 493
+  offset: 498, 17
+  index: 3
+anim_candle_fire
+  rotate: false
+  xy: 1985, 207
+  size: 58, 60
+  orig: 86, 84
+  offset: 17, 0
+  index: 6
+anim_candle_falling_fire
+  rotate: false
+  xy: 1985, 140
+  size: 40, 65
+  orig: 558, 493
+  offset: 504, 17
+  index: 1
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 1009, 304
+  size: 69, 25
+  orig: 114, 42
+  offset: 1, 0
+  index: 2
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 1125, 333
+  size: 72, 15
+  orig: 114, 42
+  offset: 0, 0
+  index: 6
+anim_candle_fire_extinguish
+  rotate: false
+  xy: 1125, 289
+  size: 56, 42
+  orig: 114, 42
+  offset: 1, 0
+  index: 1
+anim_sparkle
+  rotate: false
+  xy: 1891, 86
+  size: 29, 29
+  orig: 100, 100
+  offset: 36, 35
+  index: 1
+candle_top
+  rotate: false
+  xy: 117, 7
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 815, 765
+  index: 4
+candle_top
+  rotate: false
+  xy: 546, 29
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 439, 724
+  index: 6
+candle_top
+  rotate: false
+  xy: 657, 43
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 1432, 674
+  index: 1
+candle_top
+  rotate: false
+  xy: 1985, 129
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 1227, 762
+  index: 2
+candle_top
+  rotate: false
+  xy: 1199, 339
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 551, 606
+  index: 7
+candle_top
+  rotate: false
+  xy: 1009, 293
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 950, 579
+  index: 9
+candle_top
+  rotate: false
+  xy: 1080, 320
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 732, 548
+  index: 8
+candle_top
+  rotate: false
+  xy: 149, 7
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 1069, 765
+  index: 3
+candle_top
+  rotate: false
+  xy: 546, 18
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 1185, 551
+  index: 10
+candle_top
+  rotate: false
+  xy: 578, 29
+  size: 30, 9
+  orig: 1920, 1080
+  offset: 634, 760
+  index: 5
+
+trial_cut2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+char_ryoko_eyes
+  rotate: false
+  xy: 1, 1436
+  size: 1416, 611
+  orig: 1416, 611
+  offset: 0, 0
+  index: -1
+anim_char_ryoko_cut
+  rotate: false
+  xy: 1419, 1636
+  size: 573, 411
+  orig: 612, 679
+  offset: 14, 15
+  index: 4
+bg_mountain_cut1p02
+  rotate: false
+  xy: 1419, 1111
+  size: 524, 523
+  orig: 1920, 1080
+  offset: 275, 447
+  index: -1
+anim_star
+  rotate: false
+  xy: 1945, 1541
+  size: 98, 93
+  orig: 100, 100
+  offset: 0, 0
+  index: 2
+sho_face_result_normal
+  rotate: false
+  xy: 1945, 1459
+  size: 98, 80
+  orig: 762, 721
+  offset: 607, 303
+  index: -1
+sho_face_result_bad
+  rotate: false
+  xy: 1945, 1377
+  size: 98, 80
+  orig: 762, 721
+  offset: 607, 303
+  index: -1
+sho_face_result_good
+  rotate: false
+  xy: 1945, 1295
+  size: 98, 80
+  orig: 762, 721
+  offset: 607, 303
+  index: -1
+anim_star
+  rotate: false
+  xy: 1945, 1200
+  size: 96, 93
+  orig: 100, 100
+  offset: 0, 5
+  index: 1
+anim_sparkle
+  rotate: false
+  xy: 1945, 1109
+  size: 89, 89
+  orig: 100, 100
+  offset: 5, 5
+  index: 3
+bg_mountain
+  rotate: false
+  xy: 1, 831
+  size: 1006, 603
+  orig: 1920, 1080
+  offset: 97, 367
+  index: -1
+anim_char_ryoko_cut
+  rotate: false
+  xy: 1009, 784
+  size: 394, 650
+  orig: 612, 679
+  offset: 84, 8
+  index: 1
+bg_mountain_cut1and2p01
+  rotate: false
+  xy: 1, 696
+  size: 1006, 133
+  orig: 1920, 1080
+  offset: 97, 367
+  index: -1
+anim_char_sho_cut
+  rotate: false
+  xy: 1, 22
+  size: 352, 672
+  orig: 762, 721
+  offset: 155, 43
+  index: 2
+anim_char_sho_cut
+  rotate: false
+  xy: 355, 22
+  size: 247, 672
+  orig: 762, 721
+  offset: 256, 43
+  index: 3
+bg_mountain_cut2p02
+  rotate: false
+  xy: 1405, 623
+  size: 512, 486
+  orig: 1920, 1080
+  offset: 310, 484
+  index: -1
+anim_char_ryoko_cut
+  rotate: false
+  xy: 604, 19
+  size: 344, 602
+  orig: 612, 679
+  offset: 140, 63
+  index: 2
+anim_candle_fire
+  rotate: false
+  xy: 604, 624
+  size: 70, 70
+  orig: 86, 84
+  offset: 12, 0
+  index: 5
+anim_sparkle
+  rotate: false
+  xy: 676, 631
+  size: 63, 63
+  orig: 100, 100
+  offset: 18, 18
+  index: 2
+bg_mountain_cut1and2p02
+  rotate: false
+  xy: 950, 614
+  size: 435, 80
+  orig: 1920, 1080
+  offset: 275, 446
+  index: -1
+anim_candle_fire
+  rotate: false
+  xy: 1009, 698
+  size: 86, 84
+  orig: 86, 84
+  offset: 0, 0
+  index: 1
+anim_candle_fire
+  rotate: false
+  xy: 1097, 700
+  size: 83, 82
+  orig: 86, 84
+  offset: 1, 0
+  index: 2
+anim_candle_fire
+  rotate: false
+  xy: 1182, 702
+  size: 80, 80
+  orig: 86, 84
+  offset: 4, 0
+  index: 3
+anim_candle_fire
+  rotate: false
+  xy: 1264, 707
+  size: 75, 75
+  orig: 86, 84
+  offset: 9, 0
+  index: 4
+anim_sword_sparkle
+  rotate: false
+  xy: 1387, 133
+  size: 647, 488
+  orig: 679, 517
+  offset: 22, 10
+  index: 4
+ryoko_face_result_good
+  rotate: false
+  xy: 950, 1
+  size: 182, 130
+  orig: 612, 679
+  offset: 143, 201
+  index: -1
+ryoko_face_result_normal
+  rotate: false
+  xy: 1134, 1
+  size: 182, 130
+  orig: 612, 679
+  offset: 143, 201
+  index: -1
+ryoko_face_result_bad
+  rotate: false
+  xy: 1318, 1
+  size: 182, 130
+  orig: 612, 679
+  offset: 143, 201
+  index: -1
+anim_sword_sparkle
+  rotate: false
+  xy: 950, 199
+  size: 427, 413
+  orig: 679, 517
+  offset: 241, 85
+  index: 3
+anim_star
+  rotate: false
+  xy: 1502, 35
+  size: 86, 96
+  orig: 100, 100
+  offset: 7, 0
+  index: 3
+
+trial_cut3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_near_forest
+  rotate: false
+  xy: 1, 1554
+  size: 885, 368
+  orig: 1920, 1080
+  offset: 1035, 364
+  index: -1
+anim_char_sho_cut
+  rotate: false
+  xy: 1, 1110
+  size: 736, 442
+  orig: 762, 721
+  offset: 20, 44
+  index: 4
+anim_dust_cloud
+  rotate: false
+  xy: 888, 1752
+  size: 912, 170
+  orig: 912, 170
+  offset: 0, 0
+  index: 1
+anim_dust_cloud
+  rotate: false
+  xy: 888, 1578
+  size: 902, 172
+  orig: 902, 172
+  offset: 0, 0
+  index: 2
+bg_mountain_cut1and2p03
+  rotate: false
+  xy: 1, 627
+  size: 475, 481
+  orig: 1920, 1080
+  offset: 311, 489
+  index: -1
+anim_char_ryoko_cut
+  rotate: false
+  xy: 1, 1
+  size: 326, 624
+  orig: 612, 679
+  offset: 160, 50
+  index: 3
+hud_precission_bar_frame
+  rotate: false
+  xy: 888, 1456
+  size: 900, 120
+  orig: 900, 120
+  offset: 0, 0
+  index: -1
+hud_precission_bar_filler
+  rotate: false
+  xy: 739, 1354
+  size: 880, 100
+  orig: 900, 120
+  offset: 10, 10
+  index: -1
+anim_sword_sparkle2
+  rotate: false
+  xy: 739, 1007
+  size: 503, 345
+  orig: 503, 345
+  offset: 0, 0
+  index: 2
+anim_sword_sparkle
+  rotate: false
+  xy: 1244, 939
+  size: 427, 413
+  orig: 679, 517
+  offset: 242, 85
+  index: 2
+anim_candle_falling
+  rotate: false
+  xy: 329, 135
+  size: 287, 490
+  orig: 558, 493
+  offset: 0, 3
+  index: 1
+anim_sword_sparkle
+  rotate: false
+  xy: 478, 769
+  size: 215, 339
+  orig: 679, 517
+  offset: 453, 159
+  index: 1
+anim_candle_falling
+  rotate: false
+  xy: 695, 679
+  size: 473, 326
+  orig: 558, 493
+  offset: 7, 0
+  index: 2
+anim_sword_sparkle2
+  rotate: false
+  xy: 1170, 729
+  size: 306, 208
+  orig: 503, 345
+  offset: 80, 46
+  index: 1

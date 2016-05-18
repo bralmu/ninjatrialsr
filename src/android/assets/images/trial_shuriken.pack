@@ -1,0 +1,947 @@
+
+trial_shuriken.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg_forest_sector01
+  rotate: false
+  xy: 1, 1260
+  size: 1920, 779
+  orig: 1920, 1080
+  offset: 0, 301
+  index: -1
+anim_ryoko_kunai
+  rotate: false
+  xy: 1923, 1969
+  size: 113, 70
+  orig: 196, 120
+  offset: 41, 25
+  index: 3
+anim_sho_shuriken
+  rotate: false
+  xy: 1923, 1897
+  size: 113, 70
+  orig: 196, 120
+  offset: 41, 25
+  index: 3
+strawman_far_impact_right_hole_right
+  rotate: false
+  xy: 1923, 1853
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+strawman_far_impact_right_hole_left
+  rotate: false
+  xy: 1923, 1809
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+strawman_far_impact_left_hole_left
+  rotate: false
+  xy: 1923, 1765
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+strawman_far_impact_left_hole_center
+  rotate: false
+  xy: 1923, 1721
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+strawman_far_impact_left_hole_right
+  rotate: false
+  xy: 1923, 1677
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+strawman_far_impact_right_hole_center
+  rotate: false
+  xy: 1923, 1633
+  size: 113, 42
+  orig: 335, 441
+  offset: 111, 204
+  index: -1
+anim_strawman_mid_rope_move_left
+  rotate: false
+  xy: 1923, 1350
+  size: 101, 281
+  orig: 512, 811
+  offset: 147, 530
+  index: 3
+anim_strawman_far_effect_impact_almost
+  rotate: false
+  xy: 2026, 1591
+  size: 20, 40
+  orig: 60, 60
+  offset: 27, 9
+  index: 3
+anim_strawman_mid_effect_impact_almost
+  rotate: false
+  xy: 2026, 1559
+  size: 15, 30
+  orig: 80, 80
+  offset: 28, 24
+  index: 1
+anim_strawman_mid_effect_impact_almost
+  rotate: false
+  xy: 2026, 1508
+  size: 14, 49
+  orig: 80, 80
+  offset: 37, 18
+  index: 2
+anim_strawman_far_effect_impact_almost
+  rotate: false
+  xy: 2026, 1470
+  size: 11, 36
+  orig: 60, 60
+  offset: 28, 14
+  index: 2
+anim_strawman_far_effect_impact_almost
+  rotate: false
+  xy: 2026, 1447
+  size: 10, 21
+  orig: 60, 60
+  offset: 22, 19
+  index: 1
+anim_strawman_mid_rope_move_right
+  rotate: false
+  xy: 1923, 1067
+  size: 101, 281
+  orig: 512, 811
+  offset: 260, 530
+  index: 3
+bg_forest_sector02
+  rotate: false
+  xy: 1, 928
+  size: 1920, 330
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+anim_ryoko_kunai_tree
+  rotate: false
+  xy: 1923, 987
+  size: 99, 78
+  orig: 99, 78
+  offset: 0, 0
+  index: 3
+anim_sho_shuriken_tree
+  rotate: false
+  xy: 1923, 907
+  size: 99, 78
+  orig: 99, 78
+  offset: 0, 0
+  index: 3
+bg_bushes01
+  rotate: false
+  xy: 1, 703
+  size: 1920, 223
+  orig: 1920, 1080
+  offset: 0, 230
+  index: -1
+anim_sho_shuriken_tree
+  rotate: false
+  xy: 1923, 835
+  size: 99, 70
+  orig: 99, 78
+  offset: 0, 8
+  index: 2
+anim_ryoko_kunai_tree
+  rotate: false
+  xy: 1923, 763
+  size: 99, 70
+  orig: 99, 78
+  offset: 0, 8
+  index: 2
+anim_sho_shuriken
+  rotate: false
+  xy: 1923, 710
+  size: 99, 51
+  orig: 196, 120
+  offset: 48, 35
+  index: 4
+anim_ryoko_kunai
+  rotate: false
+  xy: 1923, 657
+  size: 99, 51
+  orig: 196, 120
+  offset: 48, 35
+  index: 4
+bg_bushes02
+  rotate: false
+  xy: 1, 573
+  size: 1920, 128
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+anim_strawman_mid_moving_left
+  rotate: false
+  xy: 1, 9
+  size: 423, 562
+  orig: 512, 811
+  offset: 86, 0
+  index: 3
+anim_strawman_mid_moving_right
+  rotate: false
+  xy: 426, 9
+  size: 422, 562
+  orig: 512, 811
+  offset: 0, 0
+  index: 3
+strawman_mid_impact_right_body
+  rotate: false
+  xy: 850, 10
+  size: 442, 561
+  orig: 446, 588
+  offset: 0, 5
+  index: -1
+strawman_mid_impact_left_body
+  rotate: false
+  xy: 1294, 10
+  size: 442, 561
+  orig: 446, 588
+  offset: 4, 5
+  index: -1
+anim_strawman_far_moving_vertical
+  rotate: false
+  xy: 1738, 151
+  size: 309, 420
+  orig: 335, 441
+  offset: 5, 5
+  index: 2
+anim_strawman_mid_effect_impact
+  rotate: false
+  xy: 1923, 582
+  size: 77, 73
+  orig: 80, 80
+  offset: 2, 4
+  index: 3
+anim_strawman_far_effect_impact
+  rotate: false
+  xy: 2002, 618
+  size: 44, 37
+  orig: 60, 60
+  offset: 7, 10
+  index: 2
+anim_strawman_mid_effect_impact
+  rotate: false
+  xy: 2002, 590
+  size: 39, 26
+  orig: 80, 80
+  offset: 22, 26
+  index: 1
+hud_exhaustion_bar_bg_ryoko
+  rotate: false
+  xy: 1738, 29
+  size: 290, 120
+  orig: 290, 120
+  offset: 0, 0
+  index: -1
+anim_sho_shuriken
+  rotate: false
+  xy: 1738, 1
+  size: 51, 26
+  orig: 196, 120
+  offset: 72, 47
+  index: 6
+anim_ryoko_kunai
+  rotate: false
+  xy: 1791, 1
+  size: 51, 26
+  orig: 196, 120
+  offset: 72, 47
+  index: 6
+anim_strawman_far_effect_impact
+  rotate: false
+  xy: 1844, 8
+  size: 29, 19
+  orig: 60, 60
+  offset: 17, 20
+  index: 1
+
+trial_shuriken2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_strawman_close
+  rotate: false
+  xy: 1, 556
+  size: 1068, 1491
+  orig: 1068, 1491
+  offset: 0, 0
+  index: 1
+anim_ryoko_win
+  rotate: false
+  xy: 1071, 1013
+  size: 700, 1034
+  orig: 750, 1040
+  offset: 36, 0
+  index: 2
+bg_tree_crown
+  rotate: false
+  xy: 1, 413
+  size: 1915, 141
+  orig: 1920, 1080
+  offset: 5, 939
+  index: -1
+bg_forest_sector03
+  rotate: false
+  xy: 1, 361
+  size: 1918, 50
+  orig: 1920, 1080
+  offset: 0, 0
+  index: -1
+anim_ryoko_hands
+  rotate: false
+  xy: 1, 119
+  size: 712, 240
+  orig: 740, 320
+  offset: 12, 0
+  index: 1
+anim_sho_hands
+  rotate: false
+  xy: 715, 119
+  size: 712, 240
+  orig: 740, 320
+  offset: 12, 0
+  index: 1
+anim_sho_hands
+  rotate: false
+  xy: 1071, 740
+  size: 649, 271
+  orig: 740, 320
+  offset: 12, 0
+  index: 2
+anim_ryoko_hands
+  rotate: false
+  xy: 1429, 58
+  size: 590, 301
+  orig: 740, 320
+  offset: 12, 0
+  index: 3
+hud_remaining_enemies_bg
+  rotate: false
+  xy: 1071, 618
+  size: 314, 120
+  orig: 314, 120
+  offset: 0, 0
+  index: -1
+hud_exhaustion_bar_bg_sho
+  rotate: false
+  xy: 1387, 618
+  size: 290, 120
+  orig: 290, 120
+  offset: 0, 0
+  index: -1
+anim_strawman_mid_rope_move_left
+  rotate: false
+  xy: 1773, 1759
+  size: 97, 288
+  orig: 512, 811
+  offset: 148, 523
+  index: 2
+anim_strawman_mid_rope_move_right
+  rotate: false
+  xy: 1773, 1469
+  size: 97, 288
+  orig: 512, 811
+  offset: 263, 523
+  index: 2
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1872, 1747
+  size: 72, 300
+  orig: 100, 300
+  offset: 8, 0
+  index: 2
+anim_strawman_mid_rope_move_left
+  rotate: false
+  xy: 1773, 1179
+  size: 83, 288
+  orig: 512, 811
+  offset: 148, 523
+  index: 1
+anim_strawman_mid_rope_move_right
+  rotate: false
+  xy: 1946, 1759
+  size: 83, 288
+  orig: 512, 811
+  offset: 277, 523
+  index: 1
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1872, 1457
+  size: 72, 288
+  orig: 100, 300
+  offset: 8, 12
+  index: 6
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1946, 1477
+  size: 69, 280
+  orig: 100, 300
+  offset: 9, 20
+  index: 1
+anim_strawman_far_moving_left
+  rotate: false
+  xy: 1722, 589
+  size: 317, 422
+  orig: 385, 610
+  offset: 65, 0
+  index: 3
+anim_ryoko_kunai
+  rotate: false
+  xy: 1, 7
+  size: 196, 110
+  orig: 196, 120
+  offset: 0, 5
+  index: 2
+anim_sho_shuriken
+  rotate: false
+  xy: 199, 7
+  size: 196, 110
+  orig: 196, 120
+  offset: 0, 5
+  index: 2
+anim_strawman_mid_rope_cut
+  rotate: false
+  xy: 1858, 1212
+  size: 68, 243
+  orig: 100, 300
+  offset: 17, 57
+  index: 2
+anim_sho_shuriken
+  rotate: false
+  xy: 397, 3
+  size: 181, 114
+  orig: 196, 120
+  offset: 7, 3
+  index: 1
+anim_ryoko_kunai
+  rotate: false
+  xy: 580, 3
+  size: 181, 114
+  orig: 196, 120
+  offset: 7, 3
+  index: 1
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1928, 1212
+  size: 68, 243
+  orig: 100, 300
+  offset: 17, 57
+  index: 4
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1998, 1206
+  size: 37, 269
+  orig: 100, 300
+  offset: 34, 31
+  index: 5
+anim_squirel
+  rotate: false
+  xy: 763, 46
+  size: 156, 71
+  orig: 180, 100
+  offset: 8, 11
+  index: 2
+anim_squirel
+  rotate: false
+  xy: 921, 39
+  size: 149, 78
+  orig: 180, 100
+  offset: 15, 11
+  index: 3
+anim_squirel
+  rotate: false
+  xy: 1072, 42
+  size: 144, 75
+  orig: 180, 100
+  offset: 12, 4
+  index: 1
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 2017, 1555
+  size: 29, 202
+  orig: 75, 225
+  offset: 25, 23
+  index: 3
+strawman_mid_impact_left_hole_left
+  rotate: false
+  xy: 1071, 561
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_left_hole_center
+  rotate: false
+  xy: 1218, 62
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_vertical_hole_left
+  rotate: false
+  xy: 1218, 1
+  size: 126, 59
+  orig: 446, 588
+  offset: 166, 275
+  index: -1
+strawman_mid_impact_right_hole_center
+  rotate: false
+  xy: 1346, 1
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_right_hole_left
+  rotate: false
+  xy: 1498, 1
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_left_hole_right
+  rotate: false
+  xy: 1650, 1
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_right_hole_right
+  rotate: false
+  xy: 1802, 1
+  size: 150, 55
+  orig: 446, 588
+  offset: 148, 273
+  index: -1
+strawman_mid_impact_vertical_hole_center
+  rotate: false
+  xy: 1223, 557
+  size: 126, 59
+  orig: 446, 588
+  offset: 166, 275
+  index: -1
+strawman_mid_impact_vertical_hole_right
+  rotate: false
+  xy: 1351, 557
+  size: 126, 59
+  orig: 446, 588
+  offset: 166, 275
+  index: -1
+anim_strawman_far_effect_impact
+  rotate: false
+  xy: 1370, 63
+  size: 57, 54
+  orig: 60, 60
+  offset: 2, 3
+  index: 3
+anim_ryoko_kunai_tree
+  rotate: false
+  xy: 1479, 571
+  size: 99, 45
+  orig: 99, 78
+  offset: 0, 33
+  index: 1
+anim_sho_shuriken_tree
+  rotate: false
+  xy: 1580, 571
+  size: 99, 45
+  orig: 99, 78
+  offset: 0, 33
+  index: 1
+strawman_far_impact_vertical_hole_right
+  rotate: false
+  xy: 1773, 1132
+  size: 96, 45
+  orig: 335, 441
+  offset: 124, 206
+  index: -1
+strawman_far_impact_vertical_hole_center
+  rotate: false
+  xy: 1773, 1085
+  size: 96, 45
+  orig: 335, 441
+  offset: 124, 206
+  index: -1
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 1871, 1027
+  size: 52, 183
+  orig: 75, 225
+  offset: 12, 42
+  index: 4
+anim_strawman_far_rope_cut
+  rotate: false
+  xy: 1925, 1027
+  size: 52, 183
+  orig: 75, 225
+  offset: 12, 42
+  index: 2
+strawman_far_impact_vertical_hole_left
+  rotate: false
+  xy: 1773, 1038
+  size: 96, 45
+  orig: 335, 441
+  offset: 124, 206
+  index: -1
+anim_strawman_far_rope_move_left
+  rotate: false
+  xy: 1921, 371
+  size: 72, 216
+  orig: 385, 610
+  offset: 112, 394
+  index: 2
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 1995, 385
+  size: 29, 202
+  orig: 75, 225
+  offset: 25, 23
+  index: 5
+anim_strawman_mid_effect_impact
+  rotate: false
+  xy: 1954, 7
+  size: 57, 49
+  orig: 80, 80
+  offset: 10, 14
+  index: 2
+anim_sho_shuriken
+  rotate: false
+  xy: 763, 6
+  size: 55, 38
+  orig: 196, 120
+  offset: 70, 41
+  index: 5
+anim_ryoko_kunai
+  rotate: false
+  xy: 820, 6
+  size: 55, 38
+  orig: 196, 120
+  offset: 70, 41
+  index: 5
+anim_strawman_mid_effect_impact_almost
+  rotate: false
+  xy: 2017, 1499
+  size: 27, 54
+  orig: 80, 80
+  offset: 35, 11
+  index: 3
+
+trial_shuriken3.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_strawman_close
+  rotate: false
+  xy: 1, 553
+  size: 1029, 1491
+  orig: 1068, 1491
+  offset: 16, 0
+  index: 2
+anim_strawman_close
+  rotate: false
+  xy: 1032, 553
+  size: 1007, 1491
+  orig: 1068, 1491
+  offset: 16, 0
+  index: 3
+anim_strawman_mid_moving_right
+  rotate: false
+  xy: 1, 1
+  size: 437, 550
+  orig: 512, 811
+  offset: 30, 0
+  index: 2
+anim_strawman_mid_moving_left
+  rotate: false
+  xy: 440, 1
+  size: 437, 550
+  orig: 512, 811
+  offset: 41, 0
+  index: 2
+anim_strawman_mid_moving_right
+  rotate: false
+  xy: 879, 4
+  size: 439, 547
+  orig: 512, 811
+  offset: 70, 0
+  index: 1
+anim_strawman_mid_moving_left
+  rotate: false
+  xy: 1320, 4
+  size: 438, 547
+  orig: 512, 811
+  offset: 0, 0
+  index: 1
+anim_strawman_mid_rope_bounce
+  rotate: false
+  xy: 1760, 282
+  size: 37, 269
+  orig: 100, 300
+  offset: 34, 31
+  index: 3
+anim_strawman_mid_rope_cut
+  rotate: false
+  xy: 1760, 11
+  size: 37, 269
+  orig: 100, 300
+  offset: 34, 31
+  index: 1
+anim_strawman_far_rope_move_right
+  rotate: false
+  xy: 1799, 335
+  size: 72, 216
+  orig: 385, 610
+  offset: 198, 394
+  index: 2
+anim_strawman_far_rope_move_right
+  rotate: false
+  xy: 1873, 340
+  size: 75, 211
+  orig: 385, 610
+  offset: 196, 399
+  index: 3
+anim_strawman_far_rope_move_left
+  rotate: false
+  xy: 1950, 340
+  size: 75, 211
+  orig: 385, 610
+  offset: 111, 399
+  index: 3
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 1799, 108
+  size: 54, 225
+  orig: 75, 225
+  offset: 6, 0
+  index: 2
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 1855, 117
+  size: 54, 216
+  orig: 75, 225
+  offset: 6, 9
+  index: 6
+anim_strawman_far_rope_move_right
+  rotate: false
+  xy: 1911, 122
+  size: 61, 216
+  orig: 385, 610
+  offset: 209, 394
+  index: 1
+anim_strawman_far_rope_move_left
+  rotate: false
+  xy: 1974, 122
+  size: 61, 216
+  orig: 385, 610
+  offset: 112, 394
+  index: 1
+
+trial_shuriken4.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_sho_win
+  rotate: false
+  xy: 1, 977
+  size: 700, 1034
+  orig: 750, 1040
+  offset: 36, 0
+  index: 2
+anim_sho_lose
+  rotate: false
+  xy: 1, 5
+  size: 555, 970
+  orig: 750, 1040
+  offset: 68, 1
+  index: 1
+anim_ryoko_lose
+  rotate: false
+  xy: 558, 5
+  size: 555, 970
+  orig: 750, 1040
+  offset: 68, 1
+  index: 1
+anim_sho_win
+  rotate: false
+  xy: 703, 1045
+  size: 620, 966
+  orig: 750, 1040
+  offset: 38, 0
+  index: 1
+bg_tree01
+  rotate: false
+  xy: 1325, 1219
+  size: 702, 792
+  orig: 1920, 1080
+  offset: 88, 227
+  index: -1
+bg_tree02
+  rotate: false
+  xy: 1325, 425
+  size: 702, 792
+  orig: 1920, 1080
+  offset: 1176, 212
+  index: -1
+strawman_far_impact_right_body
+  rotate: false
+  xy: 1115, 1
+  size: 331, 422
+  orig: 335, 441
+  offset: 0, 3
+  index: -1
+anim_sho_hands
+  rotate: false
+  xy: 1448, 122
+  size: 590, 301
+  orig: 740, 320
+  offset: 12, 0
+  index: 3
+anim_strawman_far_rope_bounce
+  rotate: false
+  xy: 1115, 833
+  size: 53, 210
+  orig: 75, 225
+  offset: 6, 15
+  index: 1
+anim_strawman_far_rope_cut
+  rotate: false
+  xy: 1170, 841
+  size: 29, 202
+  orig: 75, 225
+  offset: 25, 23
+  index: 1
+
+trial_shuriken5.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_ryoko_lose
+  rotate: false
+  xy: 1, 1066
+  size: 728, 897
+  orig: 750, 1040
+  offset: 18, 0
+  index: 2
+anim_sho_lose
+  rotate: false
+  xy: 1, 167
+  size: 728, 897
+  orig: 750, 1040
+  offset: 18, 0
+  index: 2
+anim_ryoko_win
+  rotate: false
+  xy: 731, 997
+  size: 620, 966
+  orig: 750, 1040
+  offset: 38, 0
+  index: 1
+anim_strawman_mid_moving_vertical
+  rotate: false
+  xy: 731, 437
+  size: 434, 558
+  orig: 446, 588
+  offset: 0, 8
+  index: 1
+anim_ryoko_hands
+  rotate: false
+  xy: 731, 164
+  size: 649, 271
+  orig: 740, 320
+  offset: 12, 0
+  index: 2
+strawman_mid_impact_vertical_body
+  rotate: false
+  xy: 1167, 437
+  size: 434, 558
+  orig: 446, 588
+  offset: 0, 8
+  index: -1
+strawman_far_impact_left_body
+  rotate: false
+  xy: 1382, 13
+  size: 331, 422
+  orig: 335, 441
+  offset: 4, 3
+  index: -1
+anim_strawman_mid_moving_vertical
+  rotate: false
+  xy: 1353, 1404
+  size: 411, 559
+  orig: 446, 588
+  offset: 7, 7
+  index: 2
+anim_strawman_mid_moving_vertical
+  rotate: false
+  xy: 1603, 843
+  size: 394, 559
+  orig: 446, 588
+  offset: 7, 7
+  index: 3
+strawman_far_impact_vertical_body
+  rotate: false
+  xy: 1715, 422
+  size: 326, 419
+  orig: 335, 441
+  offset: 0, 6
+  index: -1
+anim_strawman_far_moving_vertical
+  rotate: false
+  xy: 1715, 1
+  size: 326, 419
+  orig: 335, 441
+  offset: 0, 6
+  index: 1
+
+trial_shuriken6.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+anim_strawman_far_moving_right
+  rotate: false
+  xy: 1, 10
+  size: 328, 413
+  orig: 385, 610
+  offset: 23, 0
+  index: 2
+anim_strawman_far_moving_left
+  rotate: false
+  xy: 331, 10
+  size: 328, 413
+  orig: 385, 610
+  offset: 31, 0
+  index: 2
+anim_strawman_far_moving_right
+  rotate: false
+  xy: 661, 12
+  size: 329, 411
+  orig: 385, 610
+  offset: 53, 0
+  index: 1
+anim_strawman_far_moving_left
+  rotate: false
+  xy: 992, 12
+  size: 329, 411
+  orig: 385, 610
+  offset: 0, 0
+  index: 1
+anim_strawman_far_moving_right
+  rotate: false
+  xy: 1323, 1
+  size: 317, 422
+  orig: 385, 610
+  offset: 0, 0
+  index: 3
+anim_strawman_far_moving_vertical
+  rotate: false
+  xy: 1642, 3
+  size: 297, 420
+  orig: 335, 441
+  offset: 5, 5
+  index: 3
