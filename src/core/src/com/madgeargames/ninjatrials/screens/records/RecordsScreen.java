@@ -33,7 +33,7 @@ public class RecordsScreen extends BaseScreen {
 		stage.addActor(bg);
 
 		// Tittle:
-		tittle = new LabelActor("Best Ninjas", Color.MAGENTA, Assets.fonts.defaultLarge);
+		tittle = new LabelActor("Best Ninjas", Color.YELLOW, Assets.fonts.defaultLarge);
 		tittle.setPosition(WIDTH / 2, HEIGHT - 50 * R);
 		stage.addActor(tittle);
 
