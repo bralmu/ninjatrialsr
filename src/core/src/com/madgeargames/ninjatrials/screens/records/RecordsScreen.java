@@ -10,7 +10,6 @@ import com.madgeargames.ninjatrials.game.GameManager;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
 import com.madgeargames.ninjatrials.screens.menus.MenuMain;
-import com.madgeargames.ninjatrials.util.AudioManager;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.util.UserData;
 
@@ -59,16 +58,10 @@ public class RecordsScreen extends BaseScreen {
 			stage.addActor(tables[i]);
 		}
 
-		// MUSIC:
-		AudioManager.play(Assets.music.musics.get("menu2"), 1, false);
-
 	}
 
 	@Override
 	public void show() {
-
-		// Music:
-		AudioManager.resumeMusic();
 
 		// Both players controls:
 		for (int i = 0; i < GameManager.players.length; i++) {
@@ -80,9 +73,6 @@ public class RecordsScreen extends BaseScreen {
 
 	@Override
 	public void hide() {
-
-		// Music:
-		AudioManager.pauseMusic();
 
 		// Control:
 		for (int i = 0; i < GameManager.players.length; i++) {
