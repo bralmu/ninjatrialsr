@@ -14,132 +14,121 @@ import com.madgeargames.ninjatrials.util.UserData;
 
 public class AchievementsScreen extends BaseScreen {
 
-    private static final String TAG = AchievementsScreen.class.getName();
+	private static final String TAG = AchievementsScreen.class.getName();
 
-    private static final float R = Constants.R;
-    private static final float WIDTH = Constants.WIDTH;
-    private static final float HEIGHT = Constants.HEIGHT;
+	private static final float R = Constants.R;
+	private static final float WIDTH = Constants.WIDTH;
+	private static final float HEIGHT = Constants.HEIGHT;
 
-    private BackgroundActor bg;
-    private LabelActor tittle, profile, completed;
-    private ContainerIconsActor iconsPanel;
-    private ContainerDescriptionActor descriptionPanel;
-    private Controller controller;
+	private BackgroundActor bg;
+	private LabelActor tittle, profile, completed;
+	private ContainerIconsActor iconsPanel;
+	private ContainerDescriptionActor descriptionPanel;
+	private Controller controller;
 
+	public AchievementsScreen() {
 
-    public AchievementsScreen() {
+		// Load achievs:
+		UserData.loadAchievements();
 
-        // Load achievs:
-        UserData.loadAchievements();
+		// Bg pattern:
+		bg = new BackgroundActor(Assets.menuAchievements.bg_pattern);
+		stage.addActor(bg);
 
-        // Bg pattern:
-        bg = new BackgroundActor(Assets.menuAchievements.bg_pattern, Color.MAGENTA);
-        stage.addActor(bg);
+		// Tittle:
+		tittle = new LabelActor("ACHIEVEMENTS", Color.RED, Assets.fonts.defaultLarge);
+		tittle.setPosition(WIDTH * 4 / 5, HEIGHT - 50 * R);
+		stage.addActor(tittle);
 
-        // Tittle:
-        tittle = new LabelActor("ACHIEVEMENTS", Color.RED, Assets.fonts.defaultLarge);
-        tittle.setPosition(WIDTH * 4/5, HEIGHT - 50 * R);
-        stage.addActor(tittle);
+		// Profile:
+		profile = new LabelActor("Profile Name", Color.RED, Assets.fonts.defaultLarge);
+		profile.setPosition(tittle.getX(), HEIGHT - 100 * R);
+		stage.addActor(profile);
 
-        // Profile:
-        profile = new LabelActor("Profile Name", Color.RED, Assets.fonts.defaultLarge);
-        profile.setPosition(tittle.getX(), HEIGHT - 100 * R);
-        stage.addActor(profile);
+		// Completed:
+		completed = new LabelActor("Completed: " + GameManager.achievements.getCompletedAchievementsNumber() + "/"
+				+ GameManager.achievements.getAchievementsNumber(), Color.RED, Assets.fonts.defaultLarge);
+		completed.setPosition(tittle.getX(), HEIGHT - 150 * R);
+		stage.addActor(completed);
 
-        // Completed:
-        completed = new LabelActor("Completed: " +
-                GameManager.achievements.getCompletedAchievementsNumber() + "/" +
-                GameManager.achievements.getAchievementsNumber(),
-                Color.RED, Assets.fonts.defaultLarge);
-        completed.setPosition(tittle.getX(), HEIGHT - 150 * R);
-        stage.addActor(completed);
+		// Container Icons:
+		iconsPanel = new ContainerIconsActor();
+		iconsPanel.setPosition((HEIGHT - iconsPanel.getHeight()) / 2, (HEIGHT - iconsPanel.getHeight()) / 2);
+		stage.addActor(iconsPanel);
 
-        // Container Icons:
-        iconsPanel = new ContainerIconsActor();
-        iconsPanel.setPosition((HEIGHT - iconsPanel.getHeight())/2, (HEIGHT - iconsPanel.getHeight())/2);
-        stage.addActor(iconsPanel);
+		// Container Description:
+		descriptionPanel = new ContainerDescriptionActor();
+		descriptionPanel.setPosition(tittle.getX() - descriptionPanel.getWidth() / 2, 200 * R);
+		stage.addActor(descriptionPanel);
 
-        // Container Description:
-        descriptionPanel = new ContainerDescriptionActor();
-        descriptionPanel.setPosition(tittle.getX() - descriptionPanel.getWidth()/2, 200 * R);
-        stage.addActor(descriptionPanel);
+		// Controller:
+		controller = new Controller();
+		stage.addActor(controller);
 
-        // Controller:
-        controller = new Controller();
-        stage.addActor(controller);
+		// MUSIC:
+		AudioManager.play(Assets.music.musics.get("intro1"), 1, false);
+	}
 
-        // MUSIC:
-        AudioManager.play(Assets.music.musics.get("intro1"), 1, false);
-    }
+	@Override
+	public void show() {
 
+		// Music:
+		AudioManager.resumeMusic();
 
+		// Both players controls:
+		for (int i = 0; i < GameManager.players.length; i++) {
+			GameManager.players[i].setActionFocus(controller);
+		}
+		super.show();
+	}
 
-    @Override
-    public void show() {
+	@Override
+	public void hide() {
+		AudioManager.pauseMusic();
+	}
 
-        // Music:
-        AudioManager.resumeMusic();
+	// AUX -----------------
 
-        // Both players controls:
-        for(int i = 0; i < GameManager.players.length; i++)
-            GameManager.players[i].setActionFocus(controller);
-        super.show();
-    }
+	// Salimos al pulsar el boton ok o back, o si pasan 5 seg en loopmode.
+	public class Controller extends BaseActor {
 
+		@Override
+		public void act(float delta) {
+			super.act(delta);
+		}
 
+		@Override
+		public void onPressButton1() {
+			descriptionPanel.loadDescription(iconsPanel.getCurrentIconNumber());
+		}
 
-    @Override
-    public void hide() {
-        AudioManager.pauseMusic();
-    }
+		@Override
+		public void onPressEsc() {
+			exit();
+		}
 
+		@Override
+		public void onPressDpadUp() {
+			iconsPanel.moveUp();
+		}
 
+		@Override
+		public void onPressDpadDown() {
+			iconsPanel.moveDown();
+		}
 
+		@Override
+		public void onPressDpadLeft() {
+			iconsPanel.moveLeft();
+		}
 
-    // AUX -----------------
+		@Override
+		public void onPressDpadRight() {
+			iconsPanel.moveRight();
+		}
 
-
-    // Salimos al pulsar el boton ok o back, o si pasan 5 seg en loopmode.
-    public class Controller extends BaseActor {
-
-
-        @Override
-        public void act(float delta) {
-            super.act(delta);
-        }
-
-        @Override
-        public void onPressButton1() {
-           descriptionPanel.loadDescription(iconsPanel.getCurrentIconNumber());
-        }
-
-        @Override
-        public void onPressEsc() {
-            exit();
-        }
-
-        @Override
-        public void onPressDpadUp() {
-            iconsPanel.moveUp();
-        }
-
-        @Override
-        public void onPressDpadDown() {
-            iconsPanel.moveDown();
-        }
-
-        @Override
-        public void onPressDpadLeft() {
-            iconsPanel.moveLeft();
-        }
-
-        @Override
-        public void onPressDpadRight() {
-            iconsPanel.moveRight();
-        }
-
-        public void exit() {
-            ScreenManager.setScreen(new MenuMain());
-        }
-    }
+		public void exit() {
+			ScreenManager.setScreen(new MenuMain());
+		}
+	}
 }

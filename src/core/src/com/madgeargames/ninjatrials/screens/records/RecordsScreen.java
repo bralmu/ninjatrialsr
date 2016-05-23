@@ -29,7 +29,7 @@ public class RecordsScreen extends BaseScreen {
 	public RecordsScreen() {
 
 		// Bg pattern:
-		bg = new BackgroundActor(Assets.menuRecords.bg_pattern, Color.BLUE);
+		bg = new BackgroundActor(Assets.menuRecords.bg_pattern);
 		stage.addActor(bg);
 
 		// Tittle:
