@@ -65,14 +65,14 @@ public class MenuOptionsScreen extends BaseScreen {
 		// pantalla
 		optionsTable.setY(Constants.HEIGHT * .0f);
 
-		tb = new NinjaTextButton("PANTALLA", Assets.skin) {
+		tb = new NinjaTextButton("GRAPHICS", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsDisplayScreen());
 			}
 		};
 		optionsTable.addOption(tb);
-		tb = new NinjaTextButton("VOLUMEN MUSICA", Assets.skin) {
+		tb = new NinjaTextButton("MUSIC VOLUME", Assets.skin) {
 			@Override
 			public void action() {
 				// UNUSED
@@ -82,7 +82,7 @@ public class MenuOptionsScreen extends BaseScreen {
 		musicVolumeBar = new VolumeBar(optionsTable.getX() + volumeBarToOptionsTableXOffset,
 				optionsTable.getY() + musicVolumeBarToOptionsTableYOffset, .5f);
 		musicVolumeBar.setValue(Preferences.musicVolume);
-		tb = new NinjaTextButton("VOLUMEN SONIDO", Assets.skin) {
+		tb = new NinjaTextButton("SOUND VOLUME", Assets.skin) {
 			@Override
 			public void action() {
 				// UNUSED
@@ -92,21 +92,21 @@ public class MenuOptionsScreen extends BaseScreen {
 		soundVolumeBar = new VolumeBar(optionsTable.getX() + volumeBarToOptionsTableXOffset,
 				optionsTable.getY() + soundVolumeBarToOptionsTableYOffset, .5f);
 		soundVolumeBar.setValue(Preferences.soundVolume);
-		tb = new NinjaTextButton("LANGUAGE - ESPANOL", Assets.skin) {
+		tb = new NinjaTextButton("LANGUAGE - ENGLISH", Assets.skin) {
 			@Override
 			public void action() {
 				// TODO
 			}
 		};
 		optionsTable.addOption(tb);
-		tb = new NinjaTextButton("CONTROLES", Assets.skin) {
+		tb = new NinjaTextButton("CONTROLS", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsControlsScreen());
 			}
 		};
 		optionsTable.addOption(tb);
-		tb = new NinjaTextButton("MISCELANEAS", Assets.skin) {
+		tb = new NinjaTextButton("MISCELLANEOUS", Assets.skin) {
 			@Override
 			public void action() {
 				// TODO in final version

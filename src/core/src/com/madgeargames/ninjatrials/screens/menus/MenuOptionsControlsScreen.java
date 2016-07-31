@@ -34,21 +34,21 @@ public class MenuOptionsControlsScreen extends BaseScreen {
 													// del menú textual respecto
 													// al centro de la pantalla
 
-		tb = new NinjaTextButton("CONFIGURAR CONTROLES DE PRIMER JUGADOR", Assets.skin) {
+		tb = new NinjaTextButton("CONFIGURE PLAYER ONE CONTROLS", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsControlsRedefineButtonsScreen(0));
 			}
 		};
 		optionsTable.addOption(tb);
-		tb = new NinjaTextButton("CONFIGURAR CONTROLES DE SEGUNDO JUGADOR", Assets.skin) {
+		tb = new NinjaTextButton("CONFIGURE PLAYER TWO CONTROLS", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsControlsRedefineButtonsScreen(1));
 			}
 		};
 		optionsTable.addOption(tb);
-		tb = new NinjaTextButton("VOLVER ATRÁS", Assets.skin) {
+		tb = new NinjaTextButton("RETURN", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsScreen(null, false));

@@ -24,8 +24,8 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 	private static final String TAG = MenuOptionsScreen.class.getName();
 
 	private OptionsTable optionsTable;
-	private NinjaTextButton tb_player, tb_up, tb_right, tb_down, tb_left, tb_action1, tb_action2,
-			tb_action3, tb_action4, tb_start, tb_select, tb_esc, tb_backlink;
+	private NinjaTextButton tb_player, tb_up, tb_right, tb_down, tb_left, tb_action1, tb_action2, tb_action3,
+			tb_action4, tb_start, tb_select, tb_esc, tb_backlink;
 	private TextUpdater textUpdater;
 
 	private int playerIndex;
@@ -40,8 +40,7 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 	public MenuOptionsControlsRedefineButtonsScreen(int player) {
 
 		this.playerIndex = player;
-		this.dip = ((DesktopInputProcessor) GameManager.multiplexer.getProcessors()
-				.get(playerIndex));
+		this.dip = ((DesktopInputProcessor) GameManager.multiplexer.getProcessors().get(playerIndex));
 
 		optionsTable = new OptionsTable(2);
 		optionsTable.setFillParent(true);
@@ -56,7 +55,7 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 		// Desplazamiento vertical respecto al centro de la pantalla.
 		optionsTable.setY(Constants.HEIGHT * .0f);
 
-		tb_player = new NinjaTextButton("JUGADOR " + (playerIndex + 1), Assets.skin) {
+		tb_player = new NinjaTextButton("PLAYER " + (playerIndex + 1), Assets.skin) {
 
 		};
 		tb_player.setAsDisabledButton();
@@ -162,7 +161,7 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 		tb_esc.setAsFastActionButton();
 		optionsTable.addOption(tb_esc);
 
-		tb_backlink = new NinjaTextButton("VOLVER ATRÁS", Assets.skin) {
+		tb_backlink = new NinjaTextButton("RETURN", Assets.skin) {
 			@Override
 			public void action() {
 				ScreenManager.setScreen(new MenuOptionsControlsScreen());
@@ -178,14 +177,14 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 	}
 
 	private void updateTexts() {
-		tb_up.setText("ARRIBA = " + Preferences.inputPrefs[playerIndex].UI_UP);
-		tb_down.setText("ABAJO = " + Preferences.inputPrefs[playerIndex].UI_DOWN);
-		tb_left.setText("IZQUIERDA = " + Preferences.inputPrefs[playerIndex].UI_LEFT);
-		tb_right.setText("DERECHA = " + Preferences.inputPrefs[playerIndex].UI_RIGHT);
-		tb_action1.setText("ACCIÓN 1 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_1);
-		tb_action2.setText("ACCIÓN 2 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_2);
-		tb_action3.setText("ACCIÓN 3 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_3);
-		tb_action4.setText("ACCIÓN 4 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_4);
+		tb_up.setText("UP = " + Preferences.inputPrefs[playerIndex].UI_UP);
+		tb_down.setText("DOWN = " + Preferences.inputPrefs[playerIndex].UI_DOWN);
+		tb_left.setText("LEFT = " + Preferences.inputPrefs[playerIndex].UI_LEFT);
+		tb_right.setText("RIGHT = " + Preferences.inputPrefs[playerIndex].UI_RIGHT);
+		tb_action1.setText("ACTION 1 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_1);
+		tb_action2.setText("ACTION 2 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_2);
+		tb_action3.setText("ACTION 3 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_3);
+		tb_action4.setText("ACTION 4 = " + Preferences.inputPrefs[playerIndex].UI_ACTION_4);
 		tb_start.setText("START = " + Preferences.inputPrefs[playerIndex].UI_START);
 		tb_select.setText("SELECT = " + Preferences.inputPrefs[playerIndex].UI_SELECT);
 		tb_esc.setText("ESC = " + Preferences.inputPrefs[playerIndex].UI_ESC);
@@ -215,20 +214,22 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 
 	@Override
 	public void show() {
-		if (playerIndex == 0)
+		if (playerIndex == 0) {
 			GameManager.player1.setActionFocus(optionsTable);
-		else
+		} else {
 			GameManager.player2.setActionFocus(optionsTable);
+		}
 		GameManager.multiplexer.addProcessor(stage);
 		super.show();
 	}
 
 	@Override
 	public void hide() {
-		if (playerIndex == 0)
+		if (playerIndex == 0) {
 			GameManager.player1.setActionFocus(null);
-		else
+		} else {
 			GameManager.player2.setActionFocus(null);
+		}
 		GameManager.multiplexer.removeProcessor(stage);
 	}
 
