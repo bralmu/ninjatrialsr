@@ -343,7 +343,7 @@ public class MenuMain extends BaseScreen {
 				disableInput();
 			}
 		};
-		tb.setAsDisabledButton();
+		// tb.setAsDisabledButton();
 		optionsTable.addOption(tb);
 		tb = new NinjaTextButton("ACHIEVEM.", Assets.skin) {
 			@Override
