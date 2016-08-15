@@ -7,7 +7,6 @@ import com.madgeargames.ninjatrials.assets.Assets;
 import com.madgeargames.ninjatrials.game.GameManager;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
-import com.madgeargames.ninjatrials.util.AudioManager;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.util.UserData;
 
@@ -63,16 +62,10 @@ public class AchievementsScreen extends BaseScreen {
 		// Controller:
 		controller = new Controller();
 		stage.addActor(controller);
-
-		// MUSIC:
-		AudioManager.play(Assets.music.musics.get("intro1"), 1, false);
 	}
 
 	@Override
 	public void show() {
-
-		// Music:
-		AudioManager.resumeMusic();
 
 		// Both players controls:
 		for (int i = 0; i < GameManager.players.length; i++) {
@@ -83,7 +76,6 @@ public class AchievementsScreen extends BaseScreen {
 
 	@Override
 	public void hide() {
-		AudioManager.pauseMusic();
 	}
 
 	// AUX -----------------
@@ -99,6 +91,31 @@ public class AchievementsScreen extends BaseScreen {
 		@Override
 		public void onPressButton1() {
 			descriptionPanel.loadDescription(iconsPanel.getCurrentIconNumber());
+		}
+
+		@Override
+		public void onPressButton3() {
+			exit();
+		}
+
+		@Override
+		public void onPressButton4() {
+			exit();
+		}
+
+		@Override
+		public void onPressButtonMenu() {
+			exit();
+		}
+
+		@Override
+		public void onPressSelect() {
+			exit();
+		}
+
+		@Override
+		public void onPressStart() {
+			exit();
 		}
 
 		@Override
