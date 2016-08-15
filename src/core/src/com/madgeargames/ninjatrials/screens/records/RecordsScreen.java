@@ -9,6 +9,7 @@ import com.madgeargames.ninjatrials.assets.Assets;
 import com.madgeargames.ninjatrials.game.GameManager;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
+import com.madgeargames.ninjatrials.util.AudioManager;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.util.UserData;
 
@@ -169,7 +170,7 @@ public class RecordsScreen extends BaseScreen {
 			for (int i = 0; i < GameManager.records.tables.length; i++) {
 				GameManager.records.tables[i].setAllRecordsShown();
 			}
-
+			AudioManager.play(Assets.sound.sounds.get("menu_back"));
 			ScreenManager.gotoScreen("MenuMain");
 		}
 
