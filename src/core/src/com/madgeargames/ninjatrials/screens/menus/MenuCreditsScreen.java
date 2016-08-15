@@ -78,7 +78,7 @@ public class MenuCreditsScreen extends BaseScreen {
 	public class Controller extends BaseActor implements IUserActions {
 		private void exit() {
 			AudioManager.play(Assets.sound.sounds.get("menu_back"));
-			ScreenManager.setScreen(new MenuMain(false));
+			ScreenManager.gotoScreen("MenuMain");
 		}
 
 		@Override

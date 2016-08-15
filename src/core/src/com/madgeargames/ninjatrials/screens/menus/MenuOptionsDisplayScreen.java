@@ -81,8 +81,8 @@ public class MenuOptionsDisplayScreen extends BaseScreen {
 		for (int i = 0; i < displayModes.length; i++) {
 			if (displayModeValidator.validate(displayModes[i])) {
 				final DisplayMode displayMode = displayModes[i];
-				String s = "" + displayModes[i].width + "x" + displayModes[i].height + "@"
-						+ displayModes[i].refreshRate + "Hz " + displayModes[i].bitsPerPixel + "b";
+				String s = "" + displayModes[i].width + "x" + displayModes[i].height + "@" + displayModes[i].refreshRate
+						+ "Hz " + displayModes[i].bitsPerPixel + "b";
 				tb = new NinjaTextButton(s, Assets.skin) {
 					@Override
 					public void action() {
@@ -142,8 +142,7 @@ public class MenuOptionsDisplayScreen extends BaseScreen {
 															// centro.
 			table.setPosition(Constants.WIDTH / 2, Constants.HEIGHT / 2);
 			countdown = TIME;
-			table.add(new Label("KEEP CHANGES? (" + (int) (countdown + 1) + ")", Assets.skin))
-					.row();
+			table.add(new Label("KEEP CHANGES? (" + (int) (countdown + 1) + ")", Assets.skin)).row();
 		}
 
 		@Override
@@ -154,8 +153,7 @@ public class MenuOptionsDisplayScreen extends BaseScreen {
 				no();
 			}
 			table.clearChildren();
-			table.add(new Label("Keep changes? (" + (int) (countdown + 1) + ")", Assets.skin))
-					.row();
+			table.add(new Label("Keep changes? (" + (int) (countdown + 1) + ")", Assets.skin)).row();
 			super.act(delta);
 		}
 
@@ -296,10 +294,8 @@ public class MenuOptionsDisplayScreen extends BaseScreen {
 
 		private int maximumBPP;
 		private String[] validResolutions;
-		final private String[] validResolutions16_9 = { "1280x720", "1366x768", "1600x900",
-				"1920x1080" };
-		final private String[] validResolutions4_3 = { "640x480", "800x600", "1024x768",
-				"1280x1024" };
+		final private String[] validResolutions16_9 = { "1280x720", "1366x768", "1600x900", "1920x1080" };
+		final private String[] validResolutions4_3 = { "640x480", "800x600", "1024x768", "1280x1024" };
 		final private int maxEntries = 6;
 		private int validatedCount = 0;
 
@@ -395,7 +391,7 @@ public class MenuOptionsDisplayScreen extends BaseScreen {
 				showingModeList = false;
 				showingIcons = true;
 			} else if (expanded) {
-				ScreenManager.setScreen(new MenuOptionsScreen(null, false));
+				ScreenManager.gotoScreen("MenuOptionsScreen");
 			}
 		}
 

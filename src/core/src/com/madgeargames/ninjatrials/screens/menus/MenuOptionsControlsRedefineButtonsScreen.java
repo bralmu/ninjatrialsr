@@ -164,7 +164,7 @@ public class MenuOptionsControlsRedefineButtonsScreen extends BaseScreen {
 		tb_backlink = new NinjaTextButton("RETURN", Assets.skin) {
 			@Override
 			public void action() {
-				ScreenManager.setScreen(new MenuOptionsControlsScreen());
+				ScreenManager.setScreen(new MenuOptionsControlsScreen(null, false));
 			}
 		};
 		optionsTable.addOption(tb_backlink);

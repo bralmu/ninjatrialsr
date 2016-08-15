@@ -30,7 +30,7 @@ public class MenuOptionsScreen extends BaseScreen {
 
 	// screen that called this one (screen to return back to)
 	private static BaseScreen returningScreen;
-	private boolean returninScreenWasPaused = false;
+	private boolean returningScreenWasPaused = false;
 
 	/**
 	 * 
@@ -46,7 +46,7 @@ public class MenuOptionsScreen extends BaseScreen {
 		if (returningScreen != null) {
 			MenuOptionsScreen.returningScreen = returningScreen;
 		}
-		this.returninScreenWasPaused = returningScreenWasPaused;
+		this.returningScreenWasPaused = returningScreenWasPaused;
 
 		controller = new Controller();
 
@@ -68,7 +68,7 @@ public class MenuOptionsScreen extends BaseScreen {
 		tb = new NinjaTextButton("GRAPHICS", Assets.skin) {
 			@Override
 			public void action() {
-				ScreenManager.setScreen(new MenuOptionsDisplayScreen());
+				ScreenManager.gotoScreen("MenuOptionsDisplayScreen");
 			}
 		};
 		optionsTable.addOption(tb);
@@ -102,7 +102,7 @@ public class MenuOptionsScreen extends BaseScreen {
 		tb = new NinjaTextButton("CONTROLS", Assets.skin) {
 			@Override
 			public void action() {
-				ScreenManager.setScreen(new MenuOptionsControlsScreen());
+				ScreenManager.gotoScreen("MenuOptionsControlsScreen");
 			}
 		};
 		optionsTable.addOption(tb);
@@ -127,6 +127,7 @@ public class MenuOptionsScreen extends BaseScreen {
 	@Override
 	public void show() {
 		GameManager.player1.setActionFocus(controller);
+		GameManager.player2.setActionFocus(controller);
 		GameManager.multiplexer.addProcessor(stage);
 		super.show();
 	}
@@ -134,6 +135,7 @@ public class MenuOptionsScreen extends BaseScreen {
 	@Override
 	public void hide() {
 		GameManager.player1.setActionFocus(null);
+		GameManager.player2.setActionFocus(null);
 		GameManager.multiplexer.removeProcessor(stage);
 	}
 
@@ -166,7 +168,7 @@ public class MenuOptionsScreen extends BaseScreen {
 				returningScreen.resumePaused();
 				ScreenManager.setScreen(returningScreen);
 			} else {
-				ScreenManager.setScreen(new MenuMain());
+				ScreenManager.gotoScreen("MenuMain");
 			}
 
 		}

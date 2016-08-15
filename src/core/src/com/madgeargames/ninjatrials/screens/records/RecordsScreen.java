@@ -9,7 +9,6 @@ import com.madgeargames.ninjatrials.assets.Assets;
 import com.madgeargames.ninjatrials.game.GameManager;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
-import com.madgeargames.ninjatrials.screens.menus.MenuMain;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.util.UserData;
 
@@ -171,7 +170,7 @@ public class RecordsScreen extends BaseScreen {
 				GameManager.records.tables[i].setAllRecordsShown();
 			}
 
-			ScreenManager.setScreen(new MenuMain());
+			ScreenManager.gotoScreen("MenuMain");
 		}
 
 	}

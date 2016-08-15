@@ -10,7 +10,6 @@ import com.esotericsoftware.tablelayout.BaseTableLayout;
 import com.madgeargames.ninjatrials.assets.Assets;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
-import com.madgeargames.ninjatrials.screens.menus.MenuMain;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.util.UserData;
 
@@ -114,7 +113,7 @@ public class SeqLoadingScreen extends BaseScreen {
 			@Override
 			public void run() {
 				complete.setText("Complete!");
-				ScreenManager.setScreen(new MenuMain(true));
+				ScreenManager.gotoScreen("MenuMain");
 			}
 		}), delay(1)));
 		super.show();

@@ -86,6 +86,10 @@ public class OptionsTable extends Table implements IUserActions {
 		}
 	}
 
+	public NinjaTextButton getCurrentOption() {
+		return textButtons.get(getIndex());
+	}
+
 	public int size() {
 		return textButtons.size();
 	}

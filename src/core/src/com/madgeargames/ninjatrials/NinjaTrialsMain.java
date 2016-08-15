@@ -9,7 +9,6 @@ import com.madgeargames.ninjatrials.layers.PauseLayer;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
 import com.madgeargames.ninjatrials.screens.TestSelectionScreen;
-import com.madgeargames.ninjatrials.screens.sequences.SeqLoadingScreen;
 import com.madgeargames.ninjatrials.screens.transitions.ETransition;
 import com.madgeargames.ninjatrials.test.TestScreens;
 import com.madgeargames.ninjatrials.util.Preferences;
@@ -34,16 +33,16 @@ public class NinjaTrialsMain implements ApplicationListener {
 
 		// Minimum preload
 		Assets.menuVarious.load();
-    	Assets.fonts.load();
-    	Assets.skin.load();
+		Assets.fonts.load();
+		Assets.skin.load();
 
 		ScreenManager.setTransitionRotationEnabled(false);
 		ScreenManager.setFixedTransitionType(ETransition.FADE);
-        if (GameManager.LOAD_NORMALLY) {        	
-            ScreenManager.setScreen(new SeqLoadingScreen());
-        } else {
-            ScreenManager.setScreen(new TestSelectionScreen());
-        }
+		if (GameManager.LOAD_NORMALLY) {
+			ScreenManager.gotoScreen("SeqLoadingScreen");
+		} else {
+			ScreenManager.setScreen(new TestSelectionScreen());
+		}
 
 		lastGraphicsWidth = Gdx.graphics.getWidth();
 		lastGraphicsHeight = Gdx.graphics.getHeight();
@@ -59,8 +58,7 @@ public class NinjaTrialsMain implements ApplicationListener {
 		if (ScreenManager.getScreen() != null) {
 			if (((BaseScreen) ScreenManager.getScreen()).isPausable()) {
 				if (!((BaseScreen) ScreenManager.getScreen()).isPaused()) {
-					ScreenManager.setLayer(new PauseLayer(
-							((BaseScreen) (ScreenManager.getScreen()))));
+					ScreenManager.setLayer(new PauseLayer(((BaseScreen) (ScreenManager.getScreen()))));
 				}
 			}
 		}
@@ -76,12 +74,12 @@ public class NinjaTrialsMain implements ApplicationListener {
 		}
 		/*
 		 * if (detectGraphicsResize()) { // bugfix NT-292
-		 * ScreenManager.getScreen().resume();
-		 * System.out.println("ApplicationListener calls resume"); } else { if
+		 * ScreenManager.getScreen().resume(); System.out.println(
+		 * "ApplicationListener calls resume"); } else { if
 		 * (ScreenManager.getScreen() != null) if (!((BaseScreen)
 		 * ScreenManager.getScreen()).isPaused()) {
-		 * ScreenManager.getScreen().resume();
-		 * System.out.println("ApplicationListener calls resume"); } }
+		 * ScreenManager.getScreen().resume(); System.out.println(
+		 * "ApplicationListener calls resume"); } }
 		 */
 	}
 

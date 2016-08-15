@@ -23,8 +23,6 @@ import com.madgeargames.ninjatrials.assets.Assets;
 import com.madgeargames.ninjatrials.game.GameManager;
 import com.madgeargames.ninjatrials.screens.BaseScreen;
 import com.madgeargames.ninjatrials.screens.ScreenManager;
-import com.madgeargames.ninjatrials.screens.achievements.AchievementsScreen;
-import com.madgeargames.ninjatrials.screens.records.RecordsScreen;
 import com.madgeargames.ninjatrials.util.AudioManager;
 import com.madgeargames.ninjatrials.util.Constants;
 import com.madgeargames.ninjatrials.widgets.NinjaTextButton;
@@ -130,16 +128,11 @@ public class MenuMain extends BaseScreen {
 	private final float TABLE_Y_OFFSET = Constants.HEIGHT * .21f;
 	private OptionsTablePositionFixer optionsTablePositionFixer;
 
-	private boolean startMusic = false;
+	private boolean startMusic = true;
 
 	public MenuMain() {
 		createAndAddImageActors();
 		createAndAddTableMenu();
-	}
-
-	public MenuMain(boolean startMusic) {
-		this();
-		this.startMusic = startMusic;
 	}
 
 	@Override
@@ -154,7 +147,9 @@ public class MenuMain extends BaseScreen {
 			} else {
 				AudioManager.play(Assets.music.musics.get("intro1"), .5f, false);
 			}
+			startMusic = false;
 		}
+		animateImagesToEnterMenu();
 		super.show();
 	}
 
@@ -237,50 +232,30 @@ public class MenuMain extends BaseScreen {
 
 		// Background entering effects
 		mmBG = new SeqImgActor(Assets.menuVarious.menu_main_bg);
-		addActToEnter(mmBG, tBGEnterStart, tBGZoomDur, tBGAlphaDur, 1f);
 		menuMainGroupImages.addActor(mmBG);
 
 		// Small (far) Sparks entering effects & animations
 		mmSparksSmall = new SeqImgActor(Assets.menuVarious.menu_main_sparks_small);
-		mmSparksSmall.addAction(moveBy(-34f, 0f)); // Numero mágico para
-													// arreglar el
-													// desplazamiento lateral de
-													// la chapuza de las
-													// luciérnagas
-		addActToEnter(mmSparksSmall, tSSparksEnterStart, tSSparksZoomDur, tSSparksAlphaDur, aSpMin);
-		addActToGlowCycle(mmSparksSmall, tSSpCycleStart, -tSSpXDesp, tSSpMvCycleDur, aSpMin, aSpMax, tSSpAlCycleDur);
 		menuMainGroupImages.addActor(mmSparksSmall);
 
 		// Ryoko & Sho glowing effects
 		mmShoClothGlow = new SeqImgActor(Assets.menuVarious.menu_main_sho_cloth_glow);
-		addActToGlow(mmShoClothGlow);
 		menuMainGroupImages.addActor(mmShoClothGlow);
 		mmRyokoGlow = new SeqImgActor(Assets.menuVarious.menu_main_ryoko_glow);
-		addActToGlow(mmRyokoGlow);
 		menuMainGroupImages.addActor(mmRyokoGlow);
 		mmShoGlow = new SeqImgActor(Assets.menuVarious.menu_main_sho_glow);
-		addActToGlow(mmShoGlow);
 		menuMainGroupImages.addActor(mmShoGlow);
 
 		// Ryoko & Sho entering effects
 		mmShoCloth = new SeqImgActor(Assets.menuVarious.menu_main_sho_cloth);
-		addActToEnter(mmShoCloth, tShoEnterStart, tShoZoomDur, tShoAlphaDur, 1f);
 		menuMainGroupImages.addActor(mmShoCloth);
 		mmRyoko = new SeqImgActor(Assets.menuVarious.menu_main_ryoko);
-		addActToEnter(mmRyoko, tRyokoEnterStart, tRyokoZoomDur, tRyokoAlphaDur, 1f);
 		menuMainGroupImages.addActor(mmRyoko);
 		mmSho = new SeqImgActor(Assets.menuVarious.menu_main_sho);
-		addActToEnter(mmSho, tShoEnterStart, tShoZoomDur, tShoAlphaDur, 1f);
 		menuMainGroupImages.addActor(mmSho);
 
 		// Big (close) Sparks entering effects & animations
 		mmSparksBig = new SeqImgActor(Assets.menuVarious.menu_main_sparks_big);
-		mmSparksBig.addAction(moveBy(-57f, 0f)); // Numero mágico para arreglar
-													// el desplazamiento lateral
-													// de la chapuza de las
-													// luciérnagas
-		addActToEnter(mmSparksBig, tBSparksEnterStart, tBSparksZoomDur, tBSparksAlphaDur, aSpMin);
-		addActToGlowCycle(mmSparksBig, tBSpCycleStart, tBSpXDesp, tBSpMvCycleDur, aSpMin, aSpMax, tBSpAlCycleDur);
 		menuMainGroupImages.addActor(mmSparksBig);
 
 		// This "Spark" is still unused, but the 2 blocks of sparks images
@@ -314,7 +289,7 @@ public class MenuMain extends BaseScreen {
 				Timer.schedule(new Timer.Task() {
 					@Override
 					public void run() {
-						ScreenManager.setScreen(new MenuGameModeScreen());
+						ScreenManager.gotoScreen("MenuGameModeScreen");
 					}
 				}, 1.0f);
 			}
@@ -324,7 +299,7 @@ public class MenuMain extends BaseScreen {
 				disableInput();
 			}
 		};
-		tb.setAsDisabledButton();
+		// tb.setAsDisabledButton();
 		optionsTable.addOption(tb);
 		tb = new NinjaTextButton("OPTIONS", Assets.skin) {
 			@Override
@@ -333,7 +308,7 @@ public class MenuMain extends BaseScreen {
 				Timer.schedule(new Timer.Task() {
 					@Override
 					public void run() {
-						ScreenManager.setScreen(new MenuOptionsScreen(null, false));
+						ScreenManager.gotoScreen("MenuOptionsScreen");
 					}
 				}, 1.0f);
 			}
@@ -352,7 +327,7 @@ public class MenuMain extends BaseScreen {
 				Timer.schedule(new Timer.Task() {
 					@Override
 					public void run() {
-						ScreenManager.setScreen(new AchievementsScreen());
+						ScreenManager.gotoScreen("AchievementsScreen");
 					}
 				}, 1.0f);
 			}
@@ -362,7 +337,7 @@ public class MenuMain extends BaseScreen {
 				disableInput();
 			}
 		};
-		tb.setAsDisabledButton();
+		// tb.setAsDisabledButton();
 		optionsTable.addOption(tb);
 		tb = new NinjaTextButton("RECORDS", Assets.skin) {
 			@Override
@@ -371,7 +346,7 @@ public class MenuMain extends BaseScreen {
 				Timer.schedule(new Timer.Task() {
 					@Override
 					public void run() {
-						ScreenManager.setScreen(new RecordsScreen());
+						ScreenManager.gotoScreen("RecordsScreen");
 					}
 				}, 1.0f);
 			}
@@ -389,7 +364,7 @@ public class MenuMain extends BaseScreen {
 				Timer.schedule(new Timer.Task() {
 					@Override
 					public void run() {
-						ScreenManager.setScreen(new MenuCreditsScreen());
+						ScreenManager.gotoScreen("MenuCreditsScreen");
 					}
 				}, 1.0f);
 			}
@@ -488,6 +463,27 @@ public class MenuMain extends BaseScreen {
 	private void addActToExit(SeqImgActor actor2Exit, float tStart, float tZoomDur, float tAlphaDur) {
 		actor2Exit.addAction(delay(tStart,
 				parallel(scaleTo(4.0f, 4.0f, tZoomDur), delay((tZoomDur - tAlphaDur), alpha(0f, tAlphaDur)))));
+	}
+
+	private void animateImagesToEnterMenu() {
+		addActToEnter(mmBG, tBGEnterStart, tBGZoomDur, tBGAlphaDur, 1f);
+		mmSparksSmall.addAction(moveBy(-34f, 0f));
+		addActToEnter(mmSparksSmall, tSSparksEnterStart, tSSparksZoomDur, tSSparksAlphaDur, aSpMin);
+		addActToGlowCycle(mmSparksSmall, tSSpCycleStart, -tSSpXDesp, tSSpMvCycleDur, aSpMin, aSpMax, tSSpAlCycleDur);
+		addActToGlow(mmShoClothGlow);
+		addActToGlow(mmRyokoGlow);
+		addActToGlow(mmShoGlow);
+		addActToEnter(mmShoCloth, tShoEnterStart, tShoZoomDur, tShoAlphaDur, 1f);
+		addActToEnter(mmRyoko, tRyokoEnterStart, tRyokoZoomDur, tRyokoAlphaDur, 1f);
+		addActToEnter(mmSho, tShoEnterStart, tShoZoomDur, tShoAlphaDur, 1f);
+		mmSparksBig.addAction(moveBy(-57f, 0f));
+		addActToEnter(mmSparksBig, tBSparksEnterStart, tBSparksZoomDur, tBSparksAlphaDur, aSpMin);
+		addActToGlowCycle(mmSparksBig, tBSpCycleStart, tBSpXDesp, tBSpMvCycleDur, aSpMin, aSpMax, tBSpAlCycleDur);
+	}
+
+	private void addActToEnter(SeqImgActor actor2Exit, float tStart, float tZoomDur, float tAlphaDur) {
+		actor2Exit.addAction(delay(tStart,
+				parallel(scaleTo(1.0f, 1.0f, tZoomDur), delay((tZoomDur - tAlphaDur), alpha(1f, tAlphaDur)))));
 	}
 
 	private void disableInput() {
